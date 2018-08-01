@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- SmartMenus core CSS (required) -->
+    <link href="plugins/SmartMenus/sm-core-css.css" rel="stylesheet" type="text/css" />
+
+    <!-- "sm-blue" menu theme (optional, you can use your own CSS, too) -->
+    <link href="plugins/SmartMenus/sm-blue.css" rel="stylesheet" type="text/css" />
+
+
+  </head>
+
+  <body>
+
+<!--
+Examples:
+1.
+<li><a href="#" class="current">A 'current' class item</a></li>
+
+2.
+<li><a href="#" class="disabled">Disabled menu item</a></li>
+
+3.
+<li><a href="#">Mega menu</a>
+  <ul class="mega-menu">
+    <li>
+      <-!-- The mega drop down contents --+>
+      <div style="width:400px;max-width:100%;">
+        <div style="padding:5px 24px;">
+          <p>This is a mega drop down test. Just set the "mega-menu" class to the parent UL element to inform the SmartMenus script. It can contain <strong>any HTML</strong>.</p>
+          <p>Just style the contents as you like (you may need to reset some SmartMenus inherited styles - e.g. for lists, links, etc.)</p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li>
+-->
+
+<nav id="main-nav">
+    <ul id="main-menu" class="sm sm-blue">
+        <li><a>Хронология</a>
+            <ul>
+                <li><a href="blog.php?article=20180708_Boguslav">Чайки 07.2018</a></li>
+                <li><a href="blog.php?article=20180624_Bila_Tserkva">Белая Церковь - Денропарк Александрия 06.2018</a></li>
+                <li><a href="blog.php?article=20180611_Kiev_Sea">Киевское море 06.2018</a></li>
+                <li><a href="blog.php?article=20180204_Zhitomyr">Житомир 02.2018</a></li>
+                <li><a href="blog.php?article=20170722_Boguslav">Чайки 07.2018</a></li>
+                <li><a href="blog.php?article=20170715_Boguslav">Чайки 07.2018</a></li>
+                <li><a href="blog.php?article=20170709_Protsiv">Процев 07.2017</a></li>
+                <li><a href="blog.php?article=20170628_Trahtemorov">Трахтемиров 06.2017</a></li>
+                <li><a href="blog.php?article=20170625_Gusintsi">Гусинцы 06.2017</a></li>
+                <li><a href="blog.php?article=20170612_Buki">Буки 06.2017</a></li>
+                <li><a href="blog.php?article=20170605_Kiev_Mariinskiy">Киев - Крещатик, Мариинский парк 06.2017</a></li>
+                <li><a href="blog.php?article=20170521_Korosten">Коростень 05.2017</a></li>
+                <li><a href="blog.php?article=20170513_Putivl_Kruti">Путивль - Круты 05.2017</a></li>
+                <li><a href="blog.php?article=20170509_Kiev_Museum_Great_Patriotic_War">Киев - Мемориальный комплекс Национального музея истории Великой Отечественной войны 05.2017</a></li>
+                <li><a href="blog.php?article=20170417_Kiylov">Кийлов - Кийловская Аскания 04.2017</a></li>
+                <li><a href="blog.php?article=20170416_Kiev_Sof_Plosha">Киев - Софиевская площадь 04.2017</a></li>
+                <li><a href="blog.php?article=20170128_Konotop">Конотоп 01.2017</a></li>
+                <li><a href="blog.php?article=20170115_Kiev_Zoo_12_Month">Демидов 01.2017</a></li>
+                <li><a href="blog.php?article=20161023_Chaiky_Aerofly">Чайки - Аэротруба 10.2016</a></li>
+                <li><a href="blog.php?article=20160830_Myrgorod">Миргород 08.2016</a></li>
+                <li><a href="blog.php?article=20160814_24_Shadsk">Шацк 08.2016</a></li>
+                <li><a href="blog.php?article=20160725_0807_Odessa">Сергеевка 07.2016</a></li>
+                <li><a href="blog.php?article=20160701_24_Italy">Римини 07.2016</a></li>
+                <li><a href="blog.php?article=20160618_Mezhigorie">Новые Петровцы 06.2016</a></li>
+                <li><a href="blog.php?article=20160518_22_Eger">Егерсалок 05.2016</a></li>
+                <li><a href="blog.php?article=20160326_Konotop">Конотоп 03.2016</a></li>
+                <li><a href="blog.php?article=20151226_Kiev_Fashion_Park">Киев - Kiev Fashion Park 12.2015</a></li>
+                <li><a href="blog.php?article=20150919_Kiev_Aviation_Museum">Киев - Государственный музей авиации 09.2015</a></li>
+                <li><a href="blog.php?article=20150530_Kiev_Aviation_Museum">Киев - Государственный музей авиации 05.2015</a></li>
+                <li><a href="blog.php?article=20151031_Haisyn_Uman">Гайсын - Умань 10.2015</a></li>
+                <li><a href="blog.php?article=20141102_10_Egypt_Hurghada">Egypt - Hurgada 11.2014</a></li>
+                <li><a href="blog.php?article=20140913_Kiev_Spivoche_Pole">Киев - Певческое поле 09.2014</a></li>
+                <li><a href="blog.php?article=20140616_0707_Greece">Греция 06.2014</a></li>
+                <li><a href="blog.php?article=20130526_Vishgorod">Вышгород 05.2013</a></li>
+                <li><a href="blog.php?article=20130613_0628_Bulgaria">Sunny Beach 06.2013</a></li>
+                <li><a href="blog.php?article=20130721_Vitachev">Вытачов 07.2013</a></li>                
+                <li><a href="blog.php?article=20131019_Petrovtsi_Bitva_Za_Kiev">Новые Петровцы 10.2013</a></li>
+                <li><a href="blog.php?article=20091026_1102_Toronto">Toronto 10.2009</a></li>
+                <li><a href="blog.php?article=20080427_Feofania">Киев - Парк Феофания 04.2008</a></li>
+                <li><a href="blog.php?article=20071027_Uman">Умань 10.2007</a></li>
+                <li><a href="blog.php?article=20070406_09_Lviv">Львов 06.2007</a></li>
+                <li><a href="blog.php?article=20070722_0809_Crimea">Крым 07.2007</a></li>
+                <li><a href="blog.php?article=20061028_Bila_Tserkva">Белая Церковь 10.2006</a></li>
+            </ul>
+        </li>
+        <li><a>Расстояния</a>
+            <ul>
+                <li><a>Затяжные</a>
+                    <ul>
+                        <li><a href="blog.php?article=20160814_24_Shadsk">Шацк 08.2016</a></li>
+                        <li><a href="blog.php?article=20160725_0807_Odessa">Сергеевка 07.2016</a></li>
+                        <li><a href="blog.php?article=20160701_24_Italy">Римини 07.2016</a></li>
+                        <li><a href="blog.php?article=20160518_22_Eger">Егерсалок 05.2016</a></li>
+                        <li><a href="blog.php?article=20151031_Haisyn_Uman">Гайсын - Умань 10.2015</a></li>
+                        <li><a href="blog.php?article=20141102_10_Egypt_Hurghada">Egypt - Hurgada 11.2014</a></li>
+                        <li><a href="blog.php?article=20140616_0707_Greece">Греция 06.2014</a></li>
+                        <li><a href="blog.php?article=20130613_0628_Bulgaria">Sunny Beach 06.2013</a></li>
+                        <li><a href="blog.php?article=20091026_1102_Toronto">Toronto 10.2009</a></li>
+                        <li><a href="blog.php?article=20070722_0809_Crimea">Крым 07.2007</a></li>
+                        <li><a href="blog.php?article=20070406_09_Lviv">Львов 06.2007</a></li>
+                    </ul>
+                </li>  
+                <li><a>Однодневки</a>
+                    <ul>
+                        <li><a href="blog.php?article=20180708_Boguslav">Чайки 07.2018</a></li>
+                        <li><a href="blog.php?article=20180624_Bila_Tserkva">Белая Церковь - Денропарк Александрия 06.2018</a></li>
+                        <li><a href="blog.php?article=20180611_Kiev_Sea">Киевское море 06.2018</a></li>
+                        <li><a href="blog.php?article=20180204_Zhitomyr">Житомир 02.2018</a></li>
+                        <li><a href="blog.php?article=20170709_Protsiv">Процев 07.2017</a></li>
+                        <li><a href="blog.php?article=20170628_Trahtemorov">Трахтемиров 06.2017</a></li>
+                        <li><a href="blog.php?article=20170625_Gusintsi">Гусинцы 06.2017</a></li>
+                        <li><a href="blog.php?article=20170612_Buki">Буки 06.2017</a></li>
+                        <li><a href="blog.php?article=20170605_Kiev_Mariinskiy">Киев - Крещатик, Мариинский парк 06.2017</a></li>
+                        <li><a href="blog.php?article=20170722_Boguslav">Чайки 07.2018</a></li>
+                        <li><a href="blog.php?article=20170715_Boguslav">Чайки 07.2018</a></li>
+                        <li><a href="blog.php?article=20170521_Korosten">Коростень 05.2017</a></li>
+                        <li><a href="blog.php?article=20170513_Putivl_Kruti">Путивль - Круты 05.2017</a></li>
+                        <li><a href="blog.php?article=20170509_Kiev_Museum_Great_Patriotic_War">Киев - Мемориальный комплекс Национального музея истории Великой Отечественной войны 05.2017</a></li>
+                        <li><a href="blog.php?article=20170417_Kiylov">Кийлов - Кийловская Аскания 04.2017</a></li>
+                        <li><a href="blog.php?article=20170416_Kiev_Sof_Plosha">Киев - Софиевская площадь 04.2017</a></li>
+                        <li><a href="blog.php?article=20170128_Konotop">Конотоп 01.2017</a></li>
+                        <li><a href="blog.php?article=20170115_Kiev_Zoo_12_Month">Демидов 01.2017</a></li>
+                        <li><a href="blog.php?article=20161023_Chaiky_Aerofly">Чайки - Аэротруба 10.2016</a></li>
+                        <li><a href="blog.php?article=20160830_Myrgorod">Миргород 08.2016</a></li>
+                        <li><a href="blog.php?article=20160618_Mezhigorie">Новые Петровцы 06.2016</a></li>
+                        <li><a href="blog.php?article=20160326_Konotop">Конотоп 03.2016</a></li>
+                        <li><a href="blog.php?article=20151226_Kiev_Fashion_Park">Киев - Kiev Fashion Park 12.2015</a></li>
+                        <li><a href="blog.php?article=20150919_Kiev_Aviation_Museum">Киев - Государственный музей авиации 09.2015</a></li>
+                        <li><a href="blog.php?article=20150530_Kiev_Aviation_Museum">Киев - Государственный музей авиации 05.2015</a></li>
+                        <li><a href="blog.php?article=20140913_Kiev_Spivoche_Pole">Киев - Певческое поле 09.2014</a></li>
+                        <li><a href="blog.php?article=20130526_Vishgorod">Вышгород 05.2013</a></li>
+                        <li><a href="blog.php?article=20130721_Vitachev">Вытачов 07.2013</a></li>
+                        <li><a href="blog.php?article=20131019_Petrovtsi_Bitva_Za_Kiev">Новые Петровцы 10.2013</a></li>
+                        <li><a href="blog.php?article=20080427_Feofania">Киев - Парк Феофания 04.2008</a></li>
+                        <li><a href="blog.php?article=20071027_Uman">Умань 10.2007</a></li>
+                        <li><a href="blog.php?article=20061028_Bila_Tserkva">Белая Церковь 10.2006</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+<!--
+        <li><a>Украина</a>
+            <ul>
+                <li><a href="blog.php?article=20151031_Haisyn_Uman">Гайсын - Умань - 2015</a></li>
+                <li><a href="blog.php?article=20180611_Kiev_Sea">Киевское море - 06.2018</a></li>
+                <li><a href="blog.php?article=20170128_Konotop">Конотоп - 2017</a></li>
+                <li><a href="blog.php?article=20160326_Konotop">Конотоп - 2016</a></li>
+                <li><a href="blog.php?article=20160830_Myrgorod">Миргород - 2016</a></li>
+                <li><a href="blog.php?article=20160618_Mezhigorie">Новые Петровцы - 2016</a></li>
+                <li><a href="blog.php?article=20160725_0807_Odessa">Сергеевка - 2016</a></li>
+                <li><a href="blog.php?article=20160814_24_Shadsk">Шацк - 2016</a></li>
+            </ul>
+        </li>
+        <li><a>Заграница</a>
+            <ul>
+                <li><a href="blog.php?article=20160518_22_Eger">Ukraine - Hungary - Ukraine - 2016</a></li>
+                <li><a href="blog.php?article=20160701_24_Italy">Ukraine - Hungary - Austria - Italy - Austria - Germany - Poland - Ukraine - 2016</a></li>
+            </ul>
+        </li> 
+-->
+        <li><a>Интересные места</a>
+            <ul>
+                <li><a>Canada</a>
+                    <ul>
+                        <li><a href="blog.php?article=20091026_1102_Toronto&topic=article_04_Parad">Toronto - Halloween 10.2009</a></li>
+                    </ul>
+                </li>
+                <li><a>Egypt</a>
+                    <ul>
+                        <li><a href="blog.php?article=20141102_10_Egypt_Hurghada&topic=article_04_El_Gouna">El Gouna 11.2014</a></li>
+                        <li><a href="blog.php?article=20141102_10_Egypt_Hurghada&topic=article_05_Synbad">Hurhgada - Submarine Synbad 11.2014</a></li>
+                        <li><a href="blog.php?article=20141102_10_Egypt_Hurghada&topic=article_03_1000_1">Hurgada - Шоу 1000 и одна ночь 11.2014</a></li>
+                    </ul>
+                </li>
+                <li><a>Italy</a>
+                    <ul>
+                        <li><a href="blog.php?article=20160701_24_Italy&topic=article_064_Rimini_Miniatures">Rimini - Miniatures 07.2016</a></li>
+                    </ul>
+                </li>
+                <li><a>Romania</a>
+                    <ul>
+                        <li><a href="blog.php?article=20140616_0707_Greece&topic=article_19_Transfagarasan_Road">Transfagarasan Road 06.2013</a></li>
+                    </ul>
+                </li>
+                <li><a>San Marino</a>
+                    <ul>
+                        <li><a href="blog.php?article=20160701_24_Italy&topic=article_063_San_Marino">San Marino 07.2016</a></li>
+                    </ul>
+                </li>
+                <li><a>Ukraine</a>
+                    <ul>
+                        <li><a href="blog.php?article=20070722_0809_Crimea&topic=article_07_Balaklava_Museum">Балаклава - Объект 825ГТС, Музей холодной войны 07.2007</a></li>
+                        <li><a href="blog.php?article=20180624_Bila_Tserkva&topic=article_02">Белая Церковь - Денропарк Александрия 06.2018</a></li>
+                        <li><a href="blog.php?article=20170612_Buki&topic=article_02">Буки - Букский Каньон 06.2017</a></li>
+                        <li><a href="blog.php?article=20170625_Gusintsi&topic=article_03_church">Гусинцы - Спасо-Преображенская церковь 06.2017</a></li>
+                        <li><a href="blog.php?article=20180204_Zhitomyr&topic=article_04_Museum">Житомир - Музей космонавтики 02.2018</a></li>
+                        <li><a href="blog.php?article=20150530_Kiev_Aviation_Museum&topic=article">Киев - Государственный музей авиации 05.2015</a></li>
+                        <li><a href="blog.php?article=20150919_Kiev_Aviation_Museum&topic=article">Киев - Государственный музей авиации 09.2015</a></li>
+                        <li><a href="blog.php?article=20151226_Kiev_Fashion_Park&topic=article">Киев - Kiev Fashion Park 12.2015</a></li>
+                        <li><a href="blog.php?article=20170605_Kiev_Mariinskiy&topic=article">Киев - Крещатик, Мариинский парк 06.2017</a></li>
+                        <li><a href="blog.php?article=20170509_Kiev_Museum_Great_Patriotic_War&topic=article">Киев - Мемориальный комплекс Национального музея истории Великой Отечественной войны 05.2017</a></li>
+                        <li><a href="blog.php?article=20080427_Feofania&topic=article">Киев - Парк Феофания 04.2008</a></li>
+                        <li><a href="blog.php?article=20140913_Kiev_Spivoche_Pole&topic=article">Киев - Певческое поле 09.2014</a></li>
+                        <li><a href="blog.php?article=20170416_Kiev_Sof_Plosha&topic=article">Киев - Софиевская площадь - Фестиваль писанок - 04.2017</a></li>
+                        <li><a href="blog.php?article=20170521_Korosten&topic=article_02">Коростень - Музей Скеля 05.2017</a></li>
+                        <li><a href="blog.php?article=20170521_Korosten&topic=article_03">Коростень - Древлянский парк 05.2017</a></li>
+                        <li><a href="blog.php?article=20170513_Putivl_Kruti&topic=article_04">Круты - Музей памяти героев Крут 05.2017</a></li>
+                        <li><a href="blog.php?article=20160618_Mezhigorie&topic=article">Новые Петровцы - Межигорье 06.2016</a></li>
+                        <li><a href="blog.php?article=20131019_Petrovtsi_Bitva_Za_Kiev&topic=article">Новые Петровцы - Музей "Битва за Киев" 10.2013</a></li>
+                        <li><a href="blog.php?article=20070722_0809_Crimea&topic=article_10_Noviy_Svet">Новый Свет - Тропа Голицина, Грот Шаляпина, Можжевеловая Роща 07.2007</a></li>
+                        <li><a href="blog.php?article=20070722_0809_Crimea&topic=article_09_Sudak">Судак - Генуэзская крепость 07.2007</a></li>
+                        <li><a href="blog.php?article=20170628_Trahtemorov&topic=article_02">Трахтемиров 06.2017</a></li>
+                        <li><a href="blog.php?article=20151031_Haisyn_Uman&topic=article_03_Sofiivka">Умань - Дендропарк Софиевка 10.2015</a></li>
+                        <li><a href="blog.php?article=20071027_Uman&topic=article">Умань - Дендропарк Софиевка 10.2007</a></li>
+                        <li><a href="blog.php?article=20161023_Chaiky_Aerofly&topic=article">Чайки - Аэротруба 10.2016</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a>Пляжи</a>
+            <ul>
+                <li><a href="blog.php?article=20130613_0628_Bulgaria&topic=article_05_Beach_Bolgaria">Bulgaria - Sunny Beach 06.2013</a></li>
+                <li><a href="blog.php?article=20141102_10_Egypt_Hurghada&topic=article_02_Beach">Egypt - Hurhgada - 11.2014</a></li>
+                <li><a href="blog.php?article=20140616_0707_Greece&topic=article_13_Beach">Greece - Ouranoupolis 06.2013</a></li>
+                <li><a href="blog.php?article=20160701_24_Italy&topic=article_062_Beach">Italy - Rimini - Rivazzurra 07.2016</a></li>
+                <li><a href="blog.php?article=20130721_Vitachev&topic=article">Украина - Вытачов 07.2013</a></li> 
+                <li><a href="blog.php?article=20180611_Kiev_Sea&topic=article">Украина - Киевское море 06.2018</a></li>
+                <li><a href="blog.php?article=20070722_0809_Crimea&topic=article_03_Beach">Украина - Крым - Рыбачье 07.2007</a></li>
+                <li><a href="blog.php?article=20160725_0807_Odessa&topic=article_05_Liman">Украина - Сергеевка - Будяцкий Лиман 07.2016</a></li>
+                <li><a href="blog.php?article=20160725_0807_Odessa&topic=article_06_Sea">Украина - Сергеевка - Черное Море 07.2016</a></li>
+                <li><a href="blog.php?article=20170628_Trahtemorov&topic=article_02">Украина - Трахтемиров 06.2017</a></li>
+                <li><a href="blog.php?article=20160814_24_Shadsk&topic=article_02_Svytyaz">Украина - Шацк - Шацкие Озера - Озеро Свитязь 08.2016</a></li>
+            </ul>
+        </li>
+
+        <li><a>Зоопарки</a>
+            <ul>
+                <li><a href="blog.php?article=20140616_0707_Greece&topic=article_06_Budapest_Zoo">Hungary - Budapest - Budapest Zoo & Botanical Garden 06.2013</a></li>
+                <li><a href="blog.php?article=20170115_Kiev_Zoo_12_Month&topic=article">Украина - Демидов - XII Месяцев 01.2017</a></li>
+                <li><a href="blog.php?article=20170417_Kiylov&topic=article_01_Zoo">Украина - Кийлов - Кийловская Аскания 04.2017</a></li>
+            </ul>
+        </li>
+
+        <li><a>Отели</a>
+            <ul>
+                <li><a>Austria</a>
+                    <ul>
+                        <li><a href="blog.php?article=20160701_24_Italy&topic=article_041_Austria_Hotel_11.07-13.07">Drobollach - Hotel-Pension Melcher 07.2016</a></li>
+                    </ul>
+                </li>
+                <li><a>Bulgaria</a>
+                    <ul>
+                        <li><a href="blog.php?article=20130613_0628_Bulgaria&topic=article_04_Excelsior_Bolgaria">Sunny Beach - Aparthotel Excelsior 06.2013</a></li>
+                        <li><a href="blog.php?article=20140616_0707_Greece&topic=article_16_Hotel">Hotel Luliaka Island - Ruse 06.2014</a></li>
+                    </ul>
+                </li>
+                <li><a>Canada</a>
+                    <ul>
+                        <li><a href="blog.php?article=20091026_1102_Toronto&topic=article_01_Hotel">Toronto - Downtown - Best Western Primrose Hotel10.2009</a></li>
+                    </ul>
+                </li>
+                <li><a>Egypt</a>
+                    <ul>
+                        <li><a href="blog.php?article=20141102_10_Egypt_Hurghada&topic=article_01_Hotel">Egypt - Hurhgada - Sentido Mamlouk Palace Resort 11.2014</a></li>
+                    </ul>
+                </li>
+                <li><a>Germany</a>
+                    <ul>
+                        <li><a href="blog.php?article=20160701_24_Italy&topic=article_081_Ringhotel_Die_Gams,_Beilngries,_Germany">Beilngries - Ringhotel Die Gams 07.2016</a></li>
+                    </ul>
+                </li>
+                <li><a>Greece</a>
+                    <ul>
+                        <li><a href="blog.php?article=20140616_0707_Greece&topic=article_12_Hotel">Ouranoupolis - Hotel Akrathos 06.2014</a></li>
+                    </ul>
+                </li>
+                <li><a>Hungary</a>
+                    <ul>
+                        <li><a href="blog.php?article=20140616_0707_Greece&topic=article_04_Hotel">Budapest - Helios Apartman Hotel 06.2014</a></li>
+                        <li><a href="blog.php?article=20160518_22_Eger&topic=article_02_Hungary_Egerszalok_hotel_Ambitus_haz">Egerszalok - Hotel Ambitus-haz 05.2016</a></li>
+                        <li><a href="blog.php?article=20160701_24_Italy&topic=article_02_Palma_10.07-11.07">Nyírbátor - Hotel Palma 07.2016</a></li>
+                    </ul>
+                </li>
+                <li><a>Italy</a>
+                    <ul>
+                        <li><a href="blog.php?article=20160701_24_Italy&topic=article_065_Residence_Domus,_Rivazzurra,_Rimini,_Italy">Rimini - Rivazzurra - Residence Domus 07.2016</a></li>
+                    </ul>
+                </li>
+                <li><a>Romania</a>
+                    <ul>
+                        <li><a href="blog.php?article=20140616_0707_Greece&topic=article_20_Hotel">Sibiu - Hotel Stefani 06.2013</a></li>
+                        <li><a href="blog.php?article=20130613_0628_Bulgaria&topic=article_13_Hotel_Slanic">Slanic-Moldova - Hotel Vila Teleconstructia 06.2013</a></li>
+                        <li><a href="blog.php?article=20130613_0628_Bulgaria&topic=article_10_Hotel_Bucharest">Bucharest - ?????? -  06.2013</a></li>
+                    </ul>
+                </li>
+                <li><a>Poland</a>
+                    <ul>
+                        <li><a href="blog.php?article=20160701_24_Italy&topic=article_101_Hotel_Vanilla,_Krakow,_Poland">Krakow - Hotel Vanilla 07.2016</a></li>
+                        <li><a href="blog.php?article=20140616_0707_Greece&topic=article_02_Hotel">Krosno - Hotel Twist 06.2014</a></li>
+                    </ul>
+                </li>
+                <li><a>Serbia</a>
+                    <ul>
+                        <li><a href="blog.php?article=20140616_0707_Greece&topic=article_08_Hotel">Zitorade - Hotel Konak Fontana 06.2014</a></li>
+                    </ul>
+                </li>
+                <li><a>Ukraine</a>
+                    <ul>
+                        <li><a href="blog.php?article=20130613_0628_Bulgaria&topic=article_02_Hotel_Inzov_Bolgrad">Болград - Отель Инзов 06.2013</a></li>
+                        <li><a href="blog.php?article=20160701_24_Italy&topic=article_121_Lviv_Kopa">Львов - Отель Копа 07.2016</a></li>
+                        <li><a href="blog.php?article=20160518_22_Eger&topic=article_06_Lvov_Kopa">Львов - Отель Копа 05.2016</a></li>
+                        <li><a href="blog.php?article=20070406_09_Lviv&topic=article_01_Hotel">Львов - Отель Жокей 06.2007</a></li>
+                        <li><a href="blog.php?article=20130613_0628_Bulgaria&topic=article_16_Hotel_Savran">Саврань - Отель Черное Море 06.2013</a></li>
+                        <li><a href="blog.php?article=20160725_0807_Odessa&topic=article_02_Patria">Сергеевка - Санаторий Патрия 07.2016</a></li>
+                        <li><a href="blog.php?article=20151031_Haisyn_Uman&topic=article_02_Mіnі_Gotel_Pozitiv">Умань - Mini Gotel Pozitiv 10.2015</a></li>
+                        <li><a href="blog.php?article=20180708_Boguslav&topic=article_02_Hotel">Чайки - Детский оздовительный комплекс санаторного типа "Чайка" 07.2018</a></li>
+                        <li><a href="blog.php?article=20160814_24_Shadsk&topic=article_03_Baza_Svytyaz">Шацк - База отдыха Свитязь 08.2016</a></li>
+                        <li><a href="blog.php?article=20140616_0707_Greece&topic=article_22_Hotel">Шаян - Erney Laz 06.2013</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+
+        <li><a>Даты</a>
+            <ul>
+                <li><a href="blog.php?article=20180708_Boguslav"        >2018.07.08 Чайки</a></li>
+                <li><a href="blog.php?article=20180624_Bila_Tserkva"    >2018.06.24 Белая Церковь - Денропарк Александрия</a></li>
+                <li><a href="blog.php?article=20180611_Kiev_Sea"        >2018.06.11 Киевское море</a></li>
+                <li><a href="blog.php?article=20180204_Zhitomyr"        >2018.02.04 Житомир</a></li>
+                <li><a href="blog.php?article=20170722_Boguslav"        >2017.07.22 Чайки</a></li>
+                <li><a href="blog.php?article=20170715_Boguslav"        >2017.07.15 Чайки</a></li>
+                <li><a href="blog.php?article=20170709_Protsiv"         >2017.07.09 Процев</a></li>
+                <li><a href="blog.php?article=20170628_Trahtemorov"     >2017.06.28 Трахтемиров</a></li>
+                <li><a href="blog.php?article=20170625_Gusintsi"        >2017.06.25 Гусинцы</a></li>
+                <li><a href="blog.php?article=20170612_Buki"            >2017.06.12 Буки</a></li>
+                <li><a href="blog.php?article=20170605_Kiev_Mariinskiy" >2017.06.05 Киев - Крещатик, Мариинский парк</a></li>
+                <li><a href="blog.php?article=20170521_Korosten"        >2017.05.21 Коростень</a></li>
+                <li><a href="blog.php?article=20170513_Putivl_Kruti"    >2017.05.13 Путивль - Круты</a></li>
+                <li><a href="blog.php?article=20170509_Kiev_Museum_Great_Patriotic_War">2017.05.09 Киев - Мемориальный комплекс Национального музея истории Великой Отечественной войны</a></li>
+                <li><a href="blog.php?article=20170417_Kiylov"          >2017.04.17 Кийлов - Кийловская Аскания</a></li>
+                <li><a href="blog.php?article=20170416_Kiev_Sof_Plosha" >2017.04.16 Киев - Софиевская площадь</a></li>
+                <li><a href="blog.php?article=20170128_Konotop"         >2017.01.28 Конотоп</a></li>
+                <li><a href="blog.php?article=20170115_Kiev_Zoo_12_Month">2017.01.15 Демидов</a></li>
+                <li><a href="blog.php?article=20161023_Chaiky_Aerofly"  >2016.10.23 Чайки - Аэротруба</a></li>
+                <li><a href="blog.php?article=20160830_Myrgorod"        >2016.08.30 Миргород</a></li>
+                <li><a href="blog.php?article=20160814_24_Shadsk"       >2016.08.14-24 Шацк</a></li>
+                <li><a href="blog.php?article=20160725_0807_Odessa"     >2016.07.25-08.07 Сергеевка</a></li>
+                <li><a href="blog.php?article=20160701_24_Italy"        >2016.07.01-24 Римини</a></li>
+                <li><a href="blog.php?article=20160618_Mezhigorie"      >2016.06.18 Новые Петровцы</a></li>
+                <li><a href="blog.php?article=20160518_22_Eger"         >2016.05.18-22 Егерсалок</a></li>
+                <li><a href="blog.php?article=20160326_Konotop"         >2016.03.26 Конотоп</a></li>
+                <li><a href="blog.php?article=20151226_Kiev_Fashion_Park">2015.12.26 Киев - Kiev Fashion Park</a></li>
+                <li><a href="blog.php?article=20151031_Haisyn_Uman"     >2015.10.31 Гайсын - Умань</a></li>
+                <li><a href="blog.php?article=20150919_Kiev_Aviation_Museum">2015.09.19 Киев - Государственный музей авиации</a></li>
+                <li><a href="blog.php?article=20150530_Kiev_Aviation_Museum">2015.05.30 Киев - Государственный музей авиации</a></li>
+                <li><a href="blog.php?article=20141102_10_Egypt_Hurghada">2014.11.02-10 Egypt - Hurgada 11.2014</a></li>
+                <li><a href="blog.php?article=20140913_Kiev_Spivoche_Pole">2014.09.13 Киев - Певческое поле</a></li>
+                <li><a href="blog.php?article=20140616_0707_Greece"     >2014.06.16 Греция</a></li>
+                <li><a href="blog.php?article=20130526_Vishgorod"       >2013.05.26 Вышгород</a></li>
+                <li><a href="blog.php?article=20130613_0628_Bulgaria"   >2013.06.13-28 Sunny Beach</a></li>
+                <li><a href="blog.php?article=20130721_Vitachev"        >2013.07.21 Вытачов</a></li>                
+                <li><a href="blog.php?article=20131019_Petrovtsi_Bitva_Za_Kiev">2013.10.19 Новые Петровцы</a></li>
+                <li><a href="blog.php?article=20091026_1102_Toronto"    >2009.10.26-11.02 Toronto</a></li>
+                <li><a href="blog.php?article=20080427_Feofania"        >2008.04.27 Киев - Парк Феофания</a></li>
+                <li><a href="blog.php?article=20071027_Uman"            >2007.10.27 Умань</a></li>
+                <li><a href="blog.php?article=20070722_0809_Crimea"     >2007.07.22-08.09 Крым</a></li>
+                <li><a href="blog.php?article=20070406_09_Lviv"         >2007.04.06-09 Львов</a></li>
+                <li><a href="blog.php?article=20061028_Bila_Tserkva"    >2006.10.28 Белая Церковь</a></li>
+            </ul>
+        </li>
+
+    </ul>
+</nav>
+
+
+
+
+<!--
+<nav id="main-nav">
+    <ul id="main-menu" class="sm sm-blue">
+        <li><a href="index.php">Хронология</a>
+          <ul>
+            <li><a href="">Introduction to SmartMenus jQuery</a></li>
+            <li><a href="">Demos + themes</a></li>
+            <li><a href="">The author</a></li>
+            <li><a> The company</a>
+              <ul>
+                <li><a href="">About Vadikom</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Privacy policy</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+    </ul>
+</nav>
+-->
+
+
+
+
+
+
+
+
+<!--
+    <nav id="main-nav">
+      <+!-- Sample menu definition --+>
+      <ul id="main-menu" class="sm sm-blue">
+        <li><a href="http://www.smartmenus.org/">Home</a></li>
+        <li><a href="http://www.smartmenus.org/about/">About</a>
+          <ul>
+            <li><a href="http://www.smartmenus.org/about/introduction-to-smartmenus-jquery/">Introduction to SmartMenus jQuery</a></li>
+            <li><a href="http://www.smartmenus.org/about/themes/">Demos + themes</a></li>
+            <li><a href="http://vadikom.com/about/#vasil-dinkov">The author</a></li>
+            <li><a href="http://www.smartmenus.org/about/vadikom/">The company</a>
+              <ul>
+                <li><a href="http://vadikom.com/about/">About Vadikom</a></li>
+                <li><a href="http://vadikom.com/projects/">Projects</a></li>
+                <li><a href="http://vadikom.com/services/">Services</a></li>
+                <li><a href="http://www.smartmenus.org/about/vadikom/privacy-policy/">Privacy policy</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="http://www.smartmenus.org/download/">Download</a></li>
+        <li><a href="http://www.smartmenus.org/support/">Support</a>
+          <ul>
+            <li><a href="http://www.smartmenus.org/support/premium-support/">Premium support</a></li>
+            <li><a href="http://www.smartmenus.org/support/forums/">Forums</a></li>
+          </ul>
+        </li>
+        <li><a href="http://www.smartmenus.org/docs/">Docs</a></li>
+        <li><a href="#">Sub test</a>
+          <ul>
+            <li><a href="#">Dummy item</a></li>
+            <li><a href="#">Dummy item</a></li>
+            <li><a href="#" class="disabled">Disabled menu item</a></li>
+            <li><a href="#">Dummy item</a></li>
+            <li><a href="#">more...</a>
+              <ul>
+                <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub menus</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">more...</a>
+                  <ul>
+                    <li><a href="#">Dummy item</a></li>
+                    <li><a href="#" class="current">A 'current' class item</a></li>
+                    <li><a href="#">Dummy item</a></li>
+                    <li><a href="#">more...</a>
+                      <ul>
+                        <li><a href="#">subMenusMinWidth</a></li>
+                        <li><a href="#">10em</a></li>
+                        <li><a href="#">forced.</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Dummy item</a></li>
+                    <li><a href="#">Dummy item</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub menus</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub menus</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub menus</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub menus</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">A pretty long text to test the default subMenusMaxWidth:20em setting for the sub menus</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+                <li><a href="#">Dummy item</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">Mega menu</a>
+          <ul class="mega-menu">
+            <li>
+              <+!-- The mega drop down contents --+>
+              <div style="width:400px;max-width:100%;">
+                <div style="padding:5px 24px;">
+                  <p>This is a mega drop down test. Just set the "mega-menu" class to the parent UL element to inform the SmartMenus script. It can contain <strong>any HTML</strong>.</p>
+                  <p>Just style the contents as you like (you may need to reset some SmartMenus inherited styles - e.g. for lists, links, etc.)</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+-->
+
+
+
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="plugins/SmartMenus/jquery.js"></script>
+
+    <!-- SmartMenus jQuery plugin -->
+    <script type="text/javascript" src="plugins/SmartMenus/jquery.smartmenus.js"></script>
+
+    <!-- SmartMenus jQuery init -->
+    <script type="text/javascript">
+    	$(function() {
+    		$('#main-menu').smartmenus({
+    			subMenusSubOffsetX: 1,
+    			subMenusSubOffsetY: -8
+    		});
+    	});
+    </script>
+
+  </body>
+</html>
+
+
+
+
+<!--
+
+    <nav id="main-nav">
+    <ul id="main-menu" class="sm sm-blue">
+        <li><a href="index.php">Хронология</a>
+            <ul>
+                <li><a href="blog.php?article=20170128_Konotop">Конотоп 01.2017</a></li>
+                <li><a href="blog.php?article=20160830_Myrgorod">Миргород 08.2016</a></li>
+                <li><a href="blog.php?article=20160814_24_Shadsk">Шадск 08.2016</a></li>
+                <li><a href="blog.php?article=20160725_0807_Odessa">Сергеевка 07.2016</a></li>
+                <li><a href="blog.php?article=20160701_24_Italy">Римини 07.2016</a></li>
+                <li><a href="blog.php?article=20160618_Mezhigorie">Межигорье 06.2016</a></li>
+                <li><a href="blog.php?article=20160518_22_Eger">Егерсалок 05.2016</a></li>
+                <li><a href="blog.php?article=20160326_Konotop">Конотоп 03.2016</a></li>
+                <li><a href="blog.php?article=20151031_Haisyn_Uman">Гайсын 10.2015</a></li>
+            </ul>
+        </li>
+        <li><a href="index.php">Украина</a>
+            <ul class="sub-menu">
+                <li><a href="blog.php?article=20151031_Haisyn_Uman">Гайсын 2015</a></li>
+                <li><a href="blog.php?article=20170128_Konotop">Конотоп 2017</a></li>
+                <li><a href="blog.php?article=20160326_Konotop">Конотоп 2016</a></li>
+                <li><a href="blog.php?article=20160618_Mezhigorie">Межигорье 2016</a></li>
+                <li><a href="blog.php?article=20160830_Myrgorod">Миргород 2016</a></li>
+                <li><a href="blog.php?article=20160725_0807_Odessa">Сергеевка 2016</a></li>
+                <li><a href="blog.php?article=20160814_24_Shadsk">Шадск 2016</a></li>
+            </ul>
+        </li>
+        <li><a href="index.php">Заграница</a>
+            <ul class="sub-menu">
+                <li><a href="blog.php?article=20160518_22_Eger">Егерсалок 2016</a></li>
+                <li><a href="blog.php?article=20160701_24_Italy">Римини 2016</a></li>
+            </ul>
+        </li>
+        <li><a href="index.php">Интересные места</a>
+            <ul class="sub-menu">
+                <li><a href="blog.php?article=20160701_24_Italy&topic=article_064_Rimini_Miniatures">Rimini - Miniatures</a></li>
+                <ul class="sub-menu">
+                    <li><a href="blog.php?article=20160701_24_Italy&topic=article_064_Rimini_Miniatures">2Rimini - Miniatures</a></li>
+                </ul>
+            </ul>
+        </li>
+        <li><a href="index.php">Пляжи</a>
+            <ul class="sub-menu">
+
+            </ul>
+        </li>
+        <li><a href="index.php">Отели</a>
+            <ul class="sub-menu">
+
+            </ul>
+        </li>
+    </ul>
+</nav>
+-->
