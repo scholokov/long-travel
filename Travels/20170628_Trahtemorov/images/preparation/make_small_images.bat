@@ -1,0 +1,1 @@
+"c:\Program Files (x86)\IrfanView\i_view64.exe" *.jpg /resize_long=400 /aspectratio /resample /convert=$N_small.jpg
