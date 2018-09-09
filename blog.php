@@ -23,8 +23,8 @@
             var image_panorama              = '13440x2204';
             var image_ixus_40               = '2272x1704';
             var image_ixus_40_vertical      = '1704x2272';
-            var video_w                     = '425px';
-            var video_h                     = '300px';
+            var video_w                     = '365px';				//'425px';
+            var video_h                     = '225px';				//'300px';
         </script>
 
         <script type="text/javascript">
@@ -54,27 +54,43 @@
         </script>    
     </head>
     <body>
-        <nav name="menu-main" id="menu-main">
-        <!-- <nav name="menu-main" id="menu-main">
-            <script src="js\menu.js" type="text/javascript"></script> -->
-            <?php include 'menu.html' ?>
-        </nav>
+    	<div id="pagewrap">
+	        <nav name="menu-main" id="menu-main">
+	        <!-- <nav name="menu-main" id="menu-main">
+	            <script src="js\menu.js" type="text/javascript"></script> -->
+	            <?php include 'menu.html' ?>
+	        </nav>
 
-        <article>
-            <?php
-                $article_name = $_GET["article"] ; 
-                $topic_name = $_GET["topic"] ; 
-                
+	        <main id="content">
+		        <article>
+		            <?php
+		                $article_name = $_GET["article"] ; 
+		                $topic_name = $_GET["topic"] ; 
+		               
+		                if ( $topic_name ){
+		                	$FullTopicName = 'Travels/' . $article_name . '/' . $topic_name . '.html'	;
+		                }
+		                else{
+		                	$FullTopicName = 'Travels/' . $article_name . '/article.php'				;
+		                }
 
-                if ( $topic_name ){
-                    include 'Travels/' . $article_name . '/' . $topic_name . '.html'        ;
-                }
-                else{
-                    include 'Travels/' . $article_name . '/article.php'        ;
-                }
+		                include $FullTopicName	;
+		            ?>
+		        </article>
+	    	</main>
+	        <aside id="sidebar">
+	        	<font id='sidebar-font-main'>Содержание:</font>
+	        	<?php
+	        		include 'Travels/' . $article_name . '/sidebar.html'	;
+	        	?>
+	        </aside>
+	        <footer id="footer">
+	        	
+	        </footer>
+	    </div>
 
-            ?>
-        </article>
+
+
 
         <!-- Root element of PhotoSwipe. Must  have class pswp. -->
         <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -83,60 +99,60 @@
                  It's a separate element, as animating opacity is faster than rgba(). -->
             <div class="pswp__bg"></div>
 
-                <!-- Slides wrapper with overflow:hidden. -->
-                <div class="pswp__scroll-wrap">
+            <!-- Slides wrapper with overflow:hidden. -->
+            <div class="pswp__scroll-wrap">
 
-                    <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
-                    <!-- don't modify these 3 pswp__item elements, data is added later on. -->
-                    <div class="pswp__container">
-                        <div class="pswp__item"></div>
-                        <div class="pswp__item"></div>
-                        <div class="pswp__item"></div>
-                    </div>
+                <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+                <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+                <div class="pswp__container">
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                </div>
 
-                    <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-                    <div class="pswp__ui pswp__ui--hidden">
+                <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+                <div class="pswp__ui pswp__ui--hidden">
 
-                        <div class="pswp__top-bar">
+                    <div class="pswp__top-bar">
 
-                            <!--  Controls are self-explanatory. Order can be changed. -->
+                        <!--  Controls are self-explanatory. Order can be changed. -->
 
-                            <div class="pswp__counter"></div>
+                        <div class="pswp__counter"></div>
 
-                            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
 
-                            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
 
-                            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
 
-                            <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
-                            <!-- element will get class pswp__preloader--active when preloader is running -->
-                            <div class="pswp__preloader">
-                                <div class="pswp__preloader__icn">
-                                    <div class="pswp__preloader__cut">
-                                        <div class="pswp__preloader__donut"></div>
-                                        </div>
+                        <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                        <!-- element will get class pswp__preloader--active when preloader is running -->
+                        <div class="pswp__preloader">
+                            <div class="pswp__preloader__icn">
+                                <div class="pswp__preloader__cut">
+                                    <div class="pswp__preloader__donut"></div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                            <div class="pswp__share-tooltip">
-                            </div> 
-                        </div>
+                    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                        <div class="pswp__share-tooltip">
+                        </div> 
+                    </div>
 
-                        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-                        </button>
+                    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                    </button>
 
-                        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-                        </button>
+                    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                    </button>
 
-                        <div class="pswp__caption">
-                            <div class="pswp__caption__center">
-                            </div>
+                    <div class="pswp__caption">
+                        <div class="pswp__caption__center">
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
 
         <script src='plugins\PhotoSwipe\photoswipe.min.js'></script>
