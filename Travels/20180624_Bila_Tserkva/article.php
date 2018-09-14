@@ -5,12 +5,10 @@
     <BODY>
         <article>
             <header>
-                <?php include 'article header.html' ?>
+                <a name="header"></a><?php include 'article header.html' ?>
             </header>
 			<article>
-                <?php include 'article_01_Road.html' ?>
-                <?php include 'article_02.html' ?>
-                <?php include 'article_03_Road.html' ?>
+                <a name="article"></a><?php include 'article.html' ?>
 			</article>
         </article>
     </BODY>
