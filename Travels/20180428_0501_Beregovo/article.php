@@ -20,8 +20,8 @@
                 <a name="article_10_Sanatoriy_Karpaty"><?php include 'article_10_Sanatoriy_Karpaty.html' ?>
                 <a name="article_13_Karpaty_Train_Station"><?php include 'article_13_Karpaty_Train_Station.html' ?>
                 <a name="article_14_Mukachevo"><?php include 'article_14_Mukachevo.html' ?>
-                <a name="article_15_Chizay"><?php include 'article_15_Chizay.html' ?>
-                <a name="article_16_Road"><?php include 'article_16_Road.html' ?>
+                <a name="article_17_Flamingo"><?php include 'article_17_Flamingo.html' ?>
+                <a name="article_18_Wine"><?php include 'article_18_Wine.html' ?>
 			</article>
         </article>
     </BODY>
