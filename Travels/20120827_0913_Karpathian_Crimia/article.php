@@ -18,9 +18,9 @@
                 <a name="article_08_Ribache"><?php include 'article_08_Ribache.html' ?>
                 <a name="article_09_Crimea"><?php include 'article_09_Crimea.html' ?>
                 <a name="article_10_Beach"><?php include 'article_10_Beach.html' ?>
-                <a name="article_11_Alushta"><?php include 'article_11_Alushta.html' ?>
-                <a name="article_12_Yalta"><?php include 'article_12_Yalta.html' ?>
-                <a name="article_13_Azov_Sea"><?php include 'article_13_Azov_Sea.html' ?>
+                <a name="article_11_Yalta"><?php include 'article_11_Yalta.html' ?>
+                <a name="article_12_Azov_Sea"><?php include 'article_12_Azov_Sea.html' ?>
+                <a name="article_13_Alushta"><?php include 'article_13_Alushta.html' ?>
                 <a name="article_14_Road"><?php include 'article_14_Road.html' ?>
                 <a name="article_15_Hotel"><?php include 'article_15_Hotel.html' ?>
                 <a name="article_16_Road"><?php include 'article_16_Road.html' ?>          
