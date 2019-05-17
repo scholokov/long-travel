@@ -64,99 +64,79 @@
 	        <main id="content">
 		        <article>
 		            <?php
-$article_name = $_GET["article"];
-$topic_name = $_GET["topic"];
-$foldername = 'Travels/' . $article_name ;
+            $article_name = $_GET["article"];
+            $topic_name = $_GET["topic"];
+            $foldername = 'Travels/' . $article_name ;
 
-if ($topic_name) {
-    $FullTopicName = $foldername . '/' . $topic_name . '.html';
-} else {
-    $FullTopicName = $foldername . '/article.php';
-}
+            if ($topic_name) {
+                $FullTopicName = $foldername . '/' . $topic_name . '.html';
+            } else {
+                $FullTopicName = $foldername . '/article.php';
+            }
 
-if (file_exists($FullTopicName)){
-    include $FullTopicName;
-} else {
-    $json = file_get_contents( $foldername . '/article.json');
-    $json_data = json_decode($json,true);
+            if (file_exists($FullTopicName)){
+                include $FullTopicName;     // old version
+            } else {                        // new version
+                $json = file_get_contents( $foldername . '/article.json');
+                $json_data = json_decode($json,true);
 
+                // first article
+                echo '<article class=article-first-body>';
+                echo    '<article class=article-first-header>';
+                echo            '<h1>' . $json_data["name"] . '</h1>'    ;
+                echo            '<h2>';
+                                    foreach($json_data["country"] as $result) {
+                                        echo $result  . " ";
+                                    };
+                echo            '</h2>';
+                                if ( $json_data["dateend"] ){
+                                    $dateend = ' - ' . $json_data["dateend"] ;
+                                }
+                                else{
+                                    $dateend = '';
+                                }
+                echo            '<h3>' . $json_data["date"] . $dateend . '</h3>' ;
+                echo    '</article>'    ;
 
-    // first article
-    echo '<article class=article-first-body>';
-    echo    '<article class=article-first-header>';
-    echo            '<h1>' . $json_data["name"] . '</h1>'    ;
-    echo            '<h2>';
-                        foreach($json_data["country"] as $result) {
-                            echo $result  . " ";
-                        };
-    echo            '</h2>';
-                    if ( $json_data["dateend"] ){
-                        $dateend = ' - ' . $json_data["dateend"] ;
-                    }
-                    else{
-                        $dateend = '';
-                    }
-    echo            '<h3>' . $json_data["date"] . $dateend . '</h3>' ;
-    echo    '</article>'    ;
+                echo    '<div align=middle class=iframe-class-map>';
+                echo        '<iframe src="' . $json_data["map"] . '" width=100% height=500px frameborder="0" style="border:0" allowfullscreen></iframe>';
+                echo    '</div>';
 
-    echo    '<div align=middle class=iframe-class-map>';
-    echo        '<iframe src="' . $json_data["map"] . '" width=100% height=500px frameborder="0" style="border:0" allowfullscreen></iframe>';
-    echo    '</div>';
+                echo '</article>'    ;
 
-    echo '</article>'    ;
+                // other articles
+                foreach($json_data["articles"] as $result) {
+                    echo '<article class=article-second-body>';
+                    echo    '<article class=article-second-header>';
+                    echo            '<h1>' . $result["name"] . '</h1>'    ;
+                    echo            '<h2>';
+                                        foreach($result["country"] as $result2) {
+                                            echo $result2 . " ";
+                                        };
+                    echo            '</h2>';
+                                    if ( $result["dateend"] ){
+                                        $dateend = ' - ' . $result["dateend"] ;
+                                    }
+                                    else{
+                                        $dateend = '';
+                                    }
+                    echo            '<h3>' . $result["date"] . $dateend . '</h3>' ;
+                    echo    '</article>'    ;
 
-    // other articles
-    foreach($json_data["articles"] as $result) {
-        echo '<article class=article-second-body>';
-        echo    '<article class=article-second-header>';
-        echo            '<h1>' . $result["name"] . '</h1>'    ;
-        echo            '<h2>';
-                            foreach($result["country"] as $result2) {
-                                echo $result2 . " ";
-                            };
-        echo            '</h2>';
-                        if ( $result["dateend"] ){
-                            $dateend = ' - ' . $result["dateend"] ;
-                        }
-                        else{
-                            $dateend = '';
-                        }
-        echo            '<h3>' . $result["date"] . $dateend . '</h3>' ;
-        echo    '</article>'    ;
+                    echo    '<div align=middle class=iframe-class-map>';
+                    echo        '<iframe src="' . $result["map"] . '" width=100% height=500px frameborder="0" style="border:0" allowfullscreen></iframe>';
+                    echo    '</div>';
 
-        echo    '<div align=middle class=iframe-class-map>';
-        echo        '<iframe src="' . $result["map"] . '" width=100% height=500px frameborder="0" style="border:0" allowfullscreen></iframe>';
-        echo    '</div>';
+                    echo    '<h4>' . $result["description"] . '</h4>'    ;
 
-        echo    '<h4>' . $result["description"] . '</h4>'    ;
+                    echo    '<div class=photo-galery>' ;
+                    
+                    
+                    echo    '</div class=photo-galery>' ;
 
-        echo    '<div class=photo-galery>' ;
-        
-        
-        echo    '</div class=photo-galery>' ;
-
-        echo '</article>'    ;
-    };       
-            
-        
-
-
-
-
-
-
-
-//    print_r($json_data["date"]);
-
-
-
-
-
-
-    //Print data
-//    print_r($json_data);
-
-}
+                    echo '</article>'    ;
+                };       
+            }
 ?>
 		        </article>
 	    	</main>
