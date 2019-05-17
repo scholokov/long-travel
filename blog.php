@@ -77,6 +77,7 @@
             if (file_exists($FullTopicName)){
                 include $FullTopicName;     // old version
             } else {                        // new version
+
                 $json = file_get_contents( $foldername . '/article.json');
                 $json_data = json_decode($json,true);
 
@@ -154,9 +155,6 @@
 
 	        </footer>
 	    </div>
-
-
-
 
         <!-- Root element of PhotoSwipe. Must  have class pswp. -->
         <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
