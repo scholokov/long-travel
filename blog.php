@@ -5,7 +5,7 @@
         <link rel='stylesheet prefetch' href='plugins/PhotoSwipe/photoswipe.min.css'>
         <link rel='stylesheet prefetch' href='plugins/PhotoSwipe/default-skin.min.css'>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        
+
         <title>Long-travel</title>
 
         <script>
@@ -51,41 +51,127 @@
                         document.write('<iframe src="' + link + '" width="' + widht + '" height="' + height + '" frameborder="0" style="border:0" allowfullscreen></iframe>');
                 document.write('</div>');
             }
-        </script>    
+        </script>
     </head>
     <body>
     	<div id="pagewrap">
 	        <nav name="menu-main" id="menu-main">
 	        <!-- <nav name="menu-main" id="menu-main">
 	            <script src="js\menu.js" type="text/javascript"></script> -->
-	            <?php include 'menu.html' ?>
+	            <?php include 'menu.html'?>
 	        </nav>
 
 	        <main id="content">
 		        <article>
 		            <?php
-		                $article_name = $_GET["article"] ; 
-		                $topic_name = $_GET["topic"] ; 
-		               
-		                if ( $topic_name ){
-		                	$FullTopicName = 'Travels/' . $article_name . '/' . $topic_name . '.html'	;
-		                }
-		                else{
-		                	$FullTopicName = 'Travels/' . $article_name . '/article.php'				;
-		                }
+$article_name = $_GET["article"];
+$topic_name = $_GET["topic"];
+$foldername = 'Travels/' . $article_name ;
 
-		                include $FullTopicName	;
-		            ?>
+if ($topic_name) {
+    $FullTopicName = $foldername . '/' . $topic_name . '.html';
+} else {
+    $FullTopicName = $foldername . '/article.php';
+}
+
+if (file_exists($FullTopicName)){
+    include $FullTopicName;
+} else {
+    $json = file_get_contents( $foldername . '/article.json');
+    $json_data = json_decode($json,true);
+
+
+    // first article
+    echo '<article class=article-first-body>';
+    echo    '<article class=article-first-header>';
+    echo            '<h1>' . $json_data["name"] . '</h1>'    ;
+    echo            '<h2>';
+                        foreach($json_data["country"] as $result) {
+                            echo $result  . " ";
+                        };
+    echo            '</h2>';
+                    if ( $json_data["dateend"] ){
+                        $dateend = ' - ' . $json_data["dateend"] ;
+                    }
+                    else{
+                        $dateend = '';
+                    }
+    echo            '<h3>' . $json_data["date"] . $dateend . '</h3>' ;
+    echo    '</article>'    ;
+
+    echo    '<div align=middle class=iframe-class-map>';
+    echo        '<iframe src="' . $json_data["map"] . '" width=100% height=500px frameborder="0" style="border:0" allowfullscreen></iframe>';
+    echo    '</div>';
+
+    echo '</article>'    ;
+
+    // other articles
+    foreach($json_data["articles"] as $result) {
+        echo '<article class=article-second-body>';
+        echo    '<article class=article-second-header>';
+        echo            '<h1>' . $result["name"] . '</h1>'    ;
+        echo            '<h2>';
+                            foreach($result["country"] as $result2) {
+                                echo $result2 . " ";
+                            };
+        echo            '</h2>';
+                        if ( $result["dateend"] ){
+                            $dateend = ' - ' . $result["dateend"] ;
+                        }
+                        else{
+                            $dateend = '';
+                        }
+        echo            '<h3>' . $result["date"] . $dateend . '</h3>' ;
+        echo    '</article>'    ;
+
+        echo    '<div align=middle class=iframe-class-map>';
+        echo        '<iframe src="' . $result["map"] . '" width=100% height=500px frameborder="0" style="border:0" allowfullscreen></iframe>';
+        echo    '</div>';
+
+        echo    '<h4>' . $result["description"] . '</h4>'    ;
+
+        echo    '<div class=photo-galery>' ;
+        
+        
+        echo    '</div class=photo-galery>' ;
+
+        echo '</article>'    ;
+    };       
+            
+        
+
+
+
+
+
+
+
+//    print_r($json_data["date"]);
+
+
+
+
+
+
+    //Print data
+//    print_r($json_data);
+
+}
+?>
 		        </article>
 	    	</main>
-	        <aside id="sidebar">
-	        	<font id='sidebar-font-main'>Содержание:</font>
-	        	<?php
-	        		include 'Travels/' . $article_name . '/sidebar.html'	;
-	        	?>
-	        </aside>
+                <!--                        
+            <aside id="sidebar">
+
+                <font id='sidebar-font-main'>Содержание:</font>
+                -->
+	        	<?php // include 'Travels/' . $article_name . '/sidebar.html';  ?>
+            <!-- </aside>  -->
+            
+
+
 	        <footer id="footer">
-	        	
+
 	        </footer>
 	    </div>
 
@@ -95,7 +181,7 @@
         <!-- Root element of PhotoSwipe. Must  have class pswp. -->
         <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-            <!-- Background of PhotoSwipe. 
+            <!-- Background of PhotoSwipe.
                  It's a separate element, as animating opacity is faster than rgba(). -->
             <div class="pswp__bg"></div>
 
@@ -138,7 +224,7 @@
 
                     <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
                         <div class="pswp__share-tooltip">
-                        </div> 
+                        </div>
                     </div>
 
                     <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">

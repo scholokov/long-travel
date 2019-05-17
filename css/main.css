@@ -167,24 +167,15 @@ main {
     /*width: 70%; */
     /* display: block; */
     text-align:left;
-  <!--    padding: 0 20px; -->
+  /* padding: 0 20px; */
 }
 article {
+	display: inline-block;
     /*float: left; */
     /*margin-bottom: 30px;*/
     /*padding: 15px 0; */
     /*width: 100%; 
     overflow: hidden;
-*/
-}
-
-aside {
-/*    float: right;
-    /*padding-left: 15px; */
-    /* width: 15%; */
-/*    display: block;
-    overflow: hidden;
-    position:relative;
 */
 }
 
@@ -201,7 +192,7 @@ aside {
     border-radius: 4px;
     padding: 0;
     width: 100%;
-    height: 100% /*900px;*/
+    height: 100%; /*900px;*/
     margin: 0;
 }
 table {
@@ -244,7 +235,9 @@ tr:nth-child(even) {
     color: #8942f4;
 }
 
-
+.article-first-body{
+    color: #8942f4;
+}
 
 
 /* Image */
@@ -262,7 +255,7 @@ figure {
   /*width: 140px; */  
   float: left; 
   margin: 0 100px 0 0; 
-  <!-- background: white; -->
+  /* background: white; */
   border: 10px solid white; 
   -moz-box-shadow: 0 3px 10px #ccc;
   -moz-transform: rotate(5deg);
