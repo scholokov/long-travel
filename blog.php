@@ -1,10 +1,18 @@
 <!DOCTYPE html>
     <Head>
-        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css\main.css">
         <link rel='stylesheet prefetch' href='plugins/PhotoSwipe/photoswipe.min.css'>
         <link rel='stylesheet prefetch' href='plugins/PhotoSwipe/default-skin.min.css'>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- jQuery -->
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+        <!-- Fotorama -->
+        <link href="plugins/fotorama/fotorama.css" rel="stylesheet">
+        <script src="plugins/fotorama/fotorama.js"></script>
 
         <title>Long-travel</title>
 
@@ -62,7 +70,7 @@
 	        </nav>
 
 	        <main id="content">
-		        <article>
+		        <article class=article-full>
 		            <?php
             $article_name = $_GET["article"];
             $topic_name = $_GET["topic"];
@@ -129,17 +137,41 @@
                     echo    '</div>';
 
                     echo    '<h4>' . $result["description"] . '</h4>'    ;
-
                     echo    '<div class=photo-galery>' ;
-                    
-                    
+                    if ( $result["fotofolder"] ){
+                        echo        '<div class="fotorama" data-nav="thumbs" data-allowfullscreen="native" data-keyboard="true" data-height="100%" data-width="100%" data-max-height="820" data-navposition="top">';
+                        
+                                    $files = scandir( $foldername . '/images/' . $result["fotofolder"] . '/' );
+                                    foreach($files as $file) {
+
+                                        echo '<img src="' . $foldername . '/images/' . $result["fotofolder"] . '/' . $file . '">' ;
+                                    }
+                        echo        '</div>';
+                    }
+
+                    if ( $result["video"] ){
+                        echo        '<div class="fotorama" data-nav="thumbs" data-allowfullscreen="true" data-keyboard="true" data-height="100%" data-width="100%" data-max-height="820" data-navposition="top">';
+                                    foreach($result["video"] as $result2) {
+                                        echo    '<a href="' . $result2 . '"></a>';;
+                                    };
+                        echo        '</div>';
+                    }
+                    if ( $result["videoroad"] ){
+                        echo        '<div class="fotorama" data-nav="thumbs" data-allowfullscreen="true" data-keyboard="true" data-height="100%" data-width="100%" data-max-height="820" data-navposition="top">';
+                                    foreach($result["videoroad"] as $result2) {
+                                        echo    '<a href="' . $result2 . '"></a>';;
+                                    };
+                        echo        '</div>';
+                    }               
+?>
+<?php                 
                     echo    '</div class=photo-galery>' ;
 
                     echo '</article>'    ;
                 };       
             }
 ?>
-		        </article>
+
 	    	</main>
                 <!--                        
             <aside id="sidebar">
@@ -222,6 +254,7 @@
         <script src='plugins\PhotoSwipe\photoswipe.min.js'></script>
         <script src='plugins\PhotoSwipe\photoswipe-ui-default.min.js'></script>
         <script src="plugins\PhotoSwipe\index.js"></script>
+
     </body>
 
     <footer>
