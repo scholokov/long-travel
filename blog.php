@@ -143,8 +143,8 @@
                         
                                     $files = scandir( $foldername . '/images/' . $result["foto"] . '/' );
                                     foreach($files as $file) {
-
-                                        echo '<img src="' . $foldername . '/images/' . $result["foto"] . '/' . $file . '">' ;
+                                        if ( $file != '.' AND $file != '..' )
+                                            echo '<img src="' . $foldername . '/images/' . $result["foto"] . '/' . $file . '">' ;
                                     }
                         echo        '</div>';
                     }
