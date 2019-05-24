@@ -81,7 +81,7 @@
                             "map": "https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d1218249.9237080957!2d23.32290342478781!3d53.38988472421651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x47210bf0e13dd73b%3A0x3e7213c05f716d9b!2z0YPQuy4g0KHQvtCy0LXRgtGB0LrQsNGPIDU4LCDQkdGA0LXRgdGCLCDQkdC10LvQsNGA0YPRgdGM!3m2!1d52.0913517!2d23.6951406!4m5!1s0x46dfd64beac55d1d%3A0xf013fd26569718c0!2z0JPRgNC-0LTQvdC-LCDQkdC10LvQsNGA0YPRgdGM!3m2!1d53.669353799999996!2d23.813130599999997!4m5!1s0x46dd93c5e077143d%3A0xc5945bf5f6c0bd8e!2zR3JlZW4gVmlsbml1cyBIb3RlbCwgUGlsYWl0xJdzIHByb3NwZWt0YXMsINCS0LjQu9GM0L3RjtGBLCDQm9C40YLQstCw!3m2!1d54.698835499999994!2d25.211259!5e0!3m2!1sru!2sua!4v1557926253523!5m2!1sru!2sua",
                             "description":  "",
                             "foto": "05 Road - Brest Vilnius",
-                            "video": [],
+                            "video": [ "https://youtu.be/n2ld-QBt49Y", "https://youtu.be/RPTa-f8P50M", "https://youtu.be/kfhgmcmNfAM", "https://youtu.be/nyTlIMUsewY" ],
 							"videoroad": [ "https://youtu.be/E9RUBy7vKYs", "https://youtu.be/bJK5lz1VNys" ]
                         },
                         {
@@ -95,7 +95,7 @@
                             "description":  " + Very friendly staff<br>+ Staff know different languages<br>+ Free Vilnius maps on a reception<br>+ Own big free parking. But if you want to open the barrier, you have to call reception<br>+ Various breakfast<br><br><br>- Very thin walls in a room. So you can listen to other people in a hotel<br>- Small rooms, so a lot of people in a hotel<br>- Some smell in a hotel but not in a room",
                             "foto": "06 Hotel Vilnius",
                             "video": [],
-							"videoroad": [  ]
+							"videoroad": [ "https://youtu.be/7zFeslHEcpA" ]
                         },                        
                         {
                             "date": "29.04.2019", 
@@ -159,8 +159,8 @@
                             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6715.212824981232!2d25.278681370528567!3d54.681507143652816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x46abb7e303865486!2sVilnil.+Museum+of+illusions!5e0!3m2!1sru!2sua!4v1557926362817!5m2!1sru!2sua",
                             "description":  "",
                             "foto": "08 Vilnius Illusion",
-                            "video": [],
-							"videoroad": [ "https://youtu.be/P3IJ6CHte0E", "https://youtu.be/2D_lIncT7-c", "https://youtu.be/TwBxsxdbfbw", "https://youtu.be/PUmjddlAaXQ", "https://youtu.be/W6Iibt6Yzak", "https://youtu.be/Aoxs6_jxkDM", "https://youtu.be/-fkVqNAzscY", "https://youtu.be/YrjVl2toU04" ]
+                            "video": [ "https://youtu.be/P3IJ6CHte0E", "https://youtu.be/2D_lIncT7-c", "https://youtu.be/TwBxsxdbfbw", "https://youtu.be/PUmjddlAaXQ", "https://youtu.be/W6Iibt6Yzak", "https://youtu.be/Aoxs6_jxkDM", "https://youtu.be/-fkVqNAzscY", "https://youtu.be/YrjVl2toU04" ],
+							"videoroad": [ ]
                         },
                         {
                             "date": "30.04.2019", 
@@ -172,7 +172,7 @@
                             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2306.5170730562254!2d25.235478316205747!3d54.68292798028085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd938398d25f97%3A0xf00d18d4c423eb0!2z0J_QsNGA0Log0JLQuNC90LPQuNGB!5e0!3m2!1sru!2sua!4v1557926461865!5m2!1sru!2sua",
                             "description":  "",
                             "foto": "09 Vlinius Vingio parkas",
-                            "video": [],
+                            "video": [ "https://youtu.be/YBpdrhtPGdM", "https://youtu.be/1zZBKl_PG8w", "https://youtu.be/5NzwmUZR01s", "https://youtu.be/oXAYiG49VM0", "https://youtu.be/Pk0NNWdMkzE", "https://youtu.be/kTRmswsWXNE", "https://youtu.be/SRiOtlwt-I8", "https://youtu.be/bHmQjRVo4eQ", "https://youtu.be/x8A3Iwg3DA8", "https://youtu.be/XdOn3tVvXPA"],
 							"videoroad": [  ]
                         },
                         {
@@ -185,7 +185,7 @@
                             "map": "https://www.google.com/maps/embed?pb=!1m40!1m12!1m3!1d1007750.1649294954!2d24.592614093406695!3d54.02939806976092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m25!3e0!4m5!1s0x46dd93c5e077143d%3A0xc5945bf5f6c0bd8e!2zR3JlZW4gVmlsbml1cyBIb3RlbCwgUGlsYWl0xJdzIHByLiAyMCwgVmlsbml1cyAwNDM1Miwg0JvQuNGC0LLQsA!3m2!1d54.698835499999994!2d25.211259!4m5!1s0x46ddb7c68fb7a1f7%3A0x2600d18d4c454151!2zTWVkaW5pbmthaSwg0JvQuNGC0LLQsA!3m2!1d54.5378599!2d25.647641999999998!4m5!1s0x46ddb6cb6faaee71%3A0x290f1e73821c549a!2z0KjRg9C80YHQuiwg0JvQuNGC0LLQsA!3m2!1d54.5914204!2d25.7571884!4m5!1s0x46d95cbc8ebf68f5%3A0x88a594e41b576ed0!2z0KDRg9GH0LjQvSwg0JHQtdC70LDRgNGD0YHRjA!3m2!1d53.7017068!2d26.839271699999998!5e0!3m2!1sru!2sua!4v1557926707972!5m2!1sru!2sua",
                             "description":  "",
                             "foto": "10 Road Vilnius Ruchin",
-                            "video": [],
+                            "video": [ "https://youtu.be/sQkEOT1XHTQ", "https://youtu.be/WI672_ZUTkc" ],
 							"videoroad": [ "https://youtu.be/1vRPcs9tUok", "https://youtu.be/tH_vM_Tr6js", "https://youtu.be/TzR1XPsk-vk" ]
                         },
                         {
@@ -199,7 +199,7 @@
                             "description":  "+ Особенный дизайн у номеров<br>+ Удобные широкие кровати<br>+ Занимательная детская площадка, оборудованна качественно. Детям было интересно, все время проводили на ней<br>+ Отоплением управляет сам хозяин, потому в номерах было очень тепло<br>+ Еда... Все просто, но изысканно и безумно вкусно. Приготовлено из домашних продуктов. Большие порции<br>+ Вино отменное и очень вкусное<br>+ В качестве безалкогольного напитка хочется отметить березовый сок, приготовленный по особому рецепту<br><br><br>- Плохая звукоизоляция у домиков",
                             "foto": "11 Hotel Sabalinka",
                             "video": [],
-							"videoroad": [  ]
+							"videoroad": [ "https://youtu.be/q5HA2sqVJVU", "https://youtu.be/DLRBa2mN-vU", "https://youtu.be/5ePWHhNE7FU", "https://youtu.be/F6TTBtte5fg", "https://youtu.be/rSu9Sk9w_Ks", "https://youtu.be/EQAsTP8SsjU", "https://youtu.be/3ZOUGD7fdm8" ]
                         },
                         {
                             "date": "01.05.2019", 
