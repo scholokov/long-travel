@@ -138,13 +138,13 @@
 
                     echo    '<h4>' . $result["description"] . '</h4>'    ;
                     echo    '<div class=photo-galery>' ;
-                    if ( $result["fotofolder"] ){
+                    if ( $result["foto"] ){
                         echo        '<div class="fotorama" data-nav="thumbs" data-allowfullscreen="native" data-keyboard="true" data-height="100%" data-width="100%" data-max-height="820" data-navposition="top">';
                         
-                                    $files = scandir( $foldername . '/images/' . $result["fotofolder"] . '/' );
+                                    $files = scandir( $foldername . '/images/' . $result["foto"] . '/' );
                                     foreach($files as $file) {
 
-                                        echo '<img src="' . $foldername . '/images/' . $result["fotofolder"] . '/' . $file . '">' ;
+                                        echo '<img src="' . $foldername . '/images/' . $result["foto"] . '/' . $file . '">' ;
                                     }
                         echo        '</div>';
                     }
