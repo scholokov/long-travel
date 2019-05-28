@@ -229,9 +229,9 @@ tr:nth-child(even) {
 }
 /*
 .article-second-body{
-
+    
 }
-
+display: none;
 .article-first-body{
 
 }

@@ -7,6 +7,8 @@
         <link rel='stylesheet prefetch' href='plugins/PhotoSwipe/default-skin.min.css'>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+        <script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
+
         <!-- jQuery -->
         <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 
@@ -69,7 +71,7 @@
 	            <?php include 'menu.html'?>
 	        </nav>
 
-	        <main id="content">
+	        <main id="content" class="container">
 		        <article class=article-full>
 		            <?php
             $article_name = $_GET["article"];
@@ -132,11 +134,22 @@
                     echo            '<h3>' . $result["date"] . $dateend . '</h3>' ;
                     echo    '</article>'    ;
 
-                    echo    '<div align=middle class=iframe-class-map>';
-                    echo        '<iframe src="' . $result["map"] . '" width=100% height=500px frameborder="0" style="border:0" allowfullscreen></iframe>';
-                    echo    '</div>';
+                    if ( $result["map"] ){
+                        echo    '<div align=middle class=iframe-class-map>';
+                        echo        '<iframe src="' . $result["map"] . '" width=100% height=500px frameborder="0" style="border:0" allowfullscreen></iframe>';
+                        echo    '</div>';
+                    }
 
-                    echo    '<h4>' . $result["description"] . '</h4>'    ;
+                    if ( $result["description"] ){
+                        echo    '<h4>' . $result["description"] . '</h4>'    ;
+                    }
+                    
+                    if ( $result["descriptionarticle"] ){
+                        echo    '<h4>' ;
+                        include_once $foldername . '/' . $result["descriptionarticle"] . '.html' ; 
+                        echo '</h4>'    ;
+                    }
+
                     echo    '<div class=photo-galery>' ;
                     if ( $result["foto"] ){
                         echo        '<div class="fotorama" data-nav="thumbs" data-allowfullscreen="native" data-keyboard="true" data-height="100%" data-width="100%" data-max-height="820" data-navposition="top">';

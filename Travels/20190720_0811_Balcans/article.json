@@ -1,0 +1,33 @@
+{
+    "date": "20.07.2019",
+    "dateend": "11.08.2019",
+    "name": "Balcans",
+    "country": [
+        "Ukraine",
+        "Romania",
+        "Serbia",
+		"Makedonia",
+		"Albania",
+		"Montenegro",
+		"Bosnia and Herzegovina",
+		"Croatia",
+		"Hungary"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m76!1m12!1m3!1d11516798.02890121!2d15.143937406594421!3d45.19279899527267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2zS3lpdiwg0KPQutGA0LDRl9C90LA!3m2!1d50.4501!2d30.5234!4m5!1s0x4737c8893f1e474b%3A0x6831b5eb2e75182d!2z0JTQtdGB0LXRiNGC0Yw!3m2!1d47.7726457!2d23.8535598!4m5!1s0x474c6788fd2c1cd5%3A0x3ade9d214e3390b4!2z0KHQuNCx0ZbRgywg0KDRg9C80YPQvdGW0Y8!3m2!1d45.7983273!2d24.125582599999998!4m5!1s0x475a7aa3d7b53fbd%3A0x1db8645cf2177ee4!2z0JHQtdC70pHRgNCw0LQsINCh0LXRgNCx0ZbRjw!3m2!1d44.786567999999995!2d20.4489216!4m5!1s0x135415a58c9aa2a5%3A0xb2ed88c260872020!2z0KHQutC-0L8n0ZQ!3m2!1d41.9960421!2d21.431646999999998!4m5!1s0x134533f1e8cc1895%3A0xd31099af13e0e86!2z0JLQu9GM0L7RgNCwLCDQkNC70LHQsNC90ZbRjw!3m2!1d40.4660668!2d19.491356!4m5!1s0x134ddeb523b486a7%3A0xc8d58dddc73965b5!2sDobra+Voda!3m2!1d42.2330556!2d19.0941667!4m5!1s0x134b43a43b6340a9%3A0x14f32b2d4e37c5a!2z0JzQvtGB0YLQsNGA!3m2!1d43.3437748!2d17.8077578!4m5!1s0x475ce7a869728075%3A0x5b8c725621a41195!2z0J7RgdGW0ZTQug!3m2!1d45.5549624!2d18.6955144!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2zS3lpdiwg0KPQutGA0LDRl9C90LA!3m2!1d50.4501!2d30.5234!5e0!3m2!1suk!2sua!4v1559026719065!5m2!1suk!2sua",
+    "articles": [
+        {
+            "date": "",
+            "dateend": "",
+            "name": "Подготовка",
+            "country": [],
+            "city": "",
+            "tag": [],
+            "map": "",
+            "description": "",
+            "descriptionarticle": "article_preparation",
+            "foto": "",
+            "video": [],
+            "videoroad": []
+        }
+    ]
+}
