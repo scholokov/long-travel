@@ -1,0 +1,36 @@
+{
+    "date": "27.04.2019",
+    "dateend": "03.05.2019",
+    "name": "Брест - Vilnius - Минск",
+    "country": [
+        "Ukraine",
+        "Беларусь",
+        "Lithuania"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m50!1m12!1m3!1d2484133.5074842875!2d24.851616470329493!3d52.55312339691103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m35!3e0!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!3m2!1d50.4501!2d30.5234!4m5!1s0x47210bf0e13dd73b%3A0x3e7213c05f716d9b!2z0YPQuy4g0KHQvtCy0LXRgtGB0LrQsNGPIDU4LCDQkdGA0LXRgdGCLCDQkdC10LvQsNGA0YPRgdGM!3m2!1d52.0913517!2d23.6951406!4m4!1s0x0%3A0xc5945bf5f6c0bd8e!3m2!1d54.698835499999994!2d25.211259!4m4!1s0x0%3A0x91c789d716550d3e!3m2!1d53.709226!2d26.833821999999998!4m5!1s0x4729f908644c556d%3A0x5ffc0af5b015d547!2z0J3QvtCy0LDRjyDQoNGD0LTQvdGPLCDQkdC10LvQsNGA0YPRgdGM!3m2!1d51.6672562!2d29.098468099999998!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LI!3m2!1d50.4501!2d30.5234!5e0!3m2!1sru!2sua!4v1557853186722!5m2!1sru!2sua",
+    "articles": [
+        {
+            "date": "27.04.2019",
+            "dateend": "",
+            "name": "Киев - Брест",
+            "country": [
+                "Ukraine",
+                "Беларусь"
+            ],
+            "city": "",
+            "tag": [
+                "road"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2557307.5891348333!2d24.860983611182867!3d51.249083804788654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LI!3m2!1d50.4501!2d30.5234!4m5!1s0x47210bf0e13dd73b%3A0x3e7213c05f716d9b!2z0YPQuy4g0KHQvtCy0LXRgtGB0LrQsNGPIDU4LCDQkdGA0LXRgdGCLCDQkdC10LvQsNGA0YPRgdGM!3m2!1d52.0913517!2d23.6951406!5e0!3m2!1sru!2sua!4v1557840522257!5m2!1sru!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "01_Road_-_Kiev_-_Brest",
+            "video": [],
+            "videoroad": [
+                "https://youtu.be/tpg3jQB0-Jo",
+                "https://youtu.be/uuS7ZN86QU8",
+                "https://youtu.be/LYqsly4hAQ4"
+            ]
+        },
+    ]
+}
