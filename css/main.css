@@ -169,7 +169,7 @@ main {
 }
 
 .iframe-class-video {
-    position:static;
+    position: static;
     display: inline;
     padding: 0;
     width: 70%;
