@@ -1,14 +1,15 @@
 {
     "date": "08.06.2019",
-    "name": "Киев - Коростышев - Киев",
+    "name": "Киев - Чайки - Киев",
     "country": [
         "Ukraine"
     ],
-    "map": "https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d325608.2109233193!2d29.52153031899642!3d50.38866303331397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!3m2!1d50.4501!2d30.5234!4m5!1s0x472c82216e6350db%3A0x7b989e078b775ec2!2z0JrQvtGA0L7RgdGC0YvRiNC10LLRgdC60LjQuSDQutCw0YDRjNC10YAsINCW0LjRgtC-0LzQuNGA0YHQutCw0Y8g0L7QsdC70LDRgdGC0Yw!3m2!1d50.3233071!2d29.079541799999998!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!3m2!1d50.4501!2d30.5234!5e0!3m2!1sru!2sua!4v1561386733633!5m2!1sru!2sua",
+    "map": "https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d656573.460407339!2d30.113968068193614!3d49.99748235372833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!3m2!1d50.4501!2d30.5234!4m5!1s0x40d398243fd93e27%3A0x2a5a45632409929a!2z0JTQtdGC0YHQutC-0LUg0L7Qt9C00L7RgNC-0LLQuNGC0LXQu9GM0L3QvtC1INGD0YfRgNC10LbQtNC10L3QuNC1INGB0LDQvdCw0YLQvtGA0L3QvtCz0L4g0YLQuNC_0LAgItCn0LDQudC60LAiLCDQp9Cw0LnQutC4LCDQmtC40LXQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAwOTcxMw!3m2!1d49.542460999999996!2d30.761132!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!3m2!1d50.4501!2d30.5234!5e0!3m2!1sru!2sua!4v1561386876486!5m2!1sru!2sua",
     "articles": [
         {
             "date": "08.06.2019",
-            "name": "Киев - Коростышев",
+            "dateend": "",
+            "name": "Киев - Чайки",
             "country": [
                 "Ukraine"
             ],
@@ -16,7 +17,7 @@
             "tag": [
                 "road"
             ],
-            "map": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d324986.82834361924!2d29.521530366915112!3d50.479095887286945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!3m2!1d50.4501!2d30.5234!4m5!1s0x472c82216e6350db%3A0x7b989e078b775ec2!2z0JrQvtGA0L7RgdGC0YvRiNC10LLRgdC60LjQuSDQutCw0YDRjNC10YAsINCW0LjRgtC-0LzQuNGA0YHQutCw0Y8g0L7QsdC70LDRgdGC0Yw!3m2!1d50.3233071!2d29.079541799999998!5e0!3m2!1sru!2sua!4v1561387515567!5m2!1sru!2sua",
+            "map": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d656641.3856489899!2d29.90794220176345!3d49.992507977749156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!3m2!1d50.4501!2d30.5234!4m5!1s0x40d398243fd93e27%3A0x2a5a45632409929a!2z0JTQtdGC0YHQutC-0LUg0L7Qt9C00L7RgNC-0LLQuNGC0LXQu9GM0L3QvtC1INGD0YfRgNC10LbQtNC10L3QuNC1INGB0LDQvdCw0YLQvtGA0L3QvtCz0L4g0YLQuNC_0LAgItCn0LDQudC60LAiLCDQp9Cw0LnQutC4LCDQmtC40LXQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAwOTcxMw!3m2!1d49.542460999999996!2d30.761132!5e0!3m2!1sru!2sua!4v1561464154068!5m2!1sru!2sua",
             "description": "",
             "descriptionarticle": "",
             "foto": "",
@@ -27,19 +28,23 @@
         },
         {
             "date": "08.06.2019",
-            "name": "Коростышевский карьер",
+            "dateend": "",
+            "name": "Детское оздоровительное учреждение санаторного типа &#34;Чайка&#34;",
             "country": [
                 "Ukraine"
             ],
-            "city": "",
+            "city": "Чайки",
             "tag": [
-                "sign"
+                "sight"
             ],
-            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2547.2916577290425!2d29.07674971607633!3d50.32380967945792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472c82216e6350db%3A0x7b989e078b775ec2!2z0JrQvtGA0L7RgdGC0YvRiNC10LLRgdC60LjQuSDQutCw0YDRjNC10YA!5e0!3m2!1sru!2sua!4v1561386640922!5m2!1sru!2sua",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13824.932088616853!2d30.75679400708102!3d49.536514913478264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a5a45632409929a!2z0JTQtdGC0YHQutC-0LUg0L7Qt9C00L7RgNC-0LLQuNGC0LXQu9GM0L3QvtC1INGD0YfRgNC10LbQtNC10L3QuNC1INGB0LDQvdCw0YLQvtGA0L3QvtCz0L4g0YLQuNC_0LAgItCn0LDQudC60LAi!5e0!3m2!1sru!2sua!4v1561386835750!5m2!1sru!2sua",
             "description": "",
             "descriptionarticle": "",
             "foto": "",
-            "video": []
+            "video": [
+                "https://youtu.be/tGIpTwB9Q0c",
+                "https://youtu.be/mfOf3WHI4CU"
+            ]
         }
     ]
 }
