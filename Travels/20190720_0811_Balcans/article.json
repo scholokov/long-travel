@@ -16,22 +16,17 @@
     "map": "https://www.google.com/maps/embed?pb=!1m70!1m12!1m3!1d5730724.325432858!2d19.63436092174163!3d45.465669409986596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m55!3e0!4m5!1s0x40d4cf4ee15a4505%3A0xa013ea0b6c4b7dc5!2zMDIwMDAsINCa0LjRl9Cy!3m2!1d50.4501!2d30.5234!4m5!1s0x474b8ef025ac69cf%3A0xd85c7cb09cd9a82f!2sMedia%C8%99%2C%20Romania!3m2!1d46.1572828!2d24.3471665!4m5!1s0x475a7aa3d7b53fbd%3A0x1db8645cf2177ee4!2z0JHQtdC70pHRgNCw0LQsINCh0LXRgNCx0ZbRjw!3m2!1d44.786567999999995!2d20.4489216!4m5!1s0x135415a58c9aa2a5%3A0xb2ed88c260872020!2z0KHQutC-0L8n0ZQ!3m2!1d42.005027399999996!2d21.4407659!4m5!1s0x134533f1e8cc1895%3A0xd31099af13e0e86!2z0JLQu9GM0L7RgNCwLCDQkNC70LHQsNC90ZbRjw!3m2!1d40.4660668!2d19.491356!4m5!1s0x134ddeb523b486a7%3A0xc8d58dddc73965b5!2sDobra%20Voda!3m2!1d42.2330556!2d19.0941667!4m5!1s0x134b43a43b6340a9%3A0x14f32b2d4e37c5a!2z0JzQvtGB0YLQsNGA!3m2!1d43.3437748!2d17.8077578!4m5!1s0x475ce7a869728075%3A0x5b8c725621a41195!2z0J7RgdGW0ZTQuiwg0KXQvtGA0LLQsNGC0ZbRjw!3m2!1d45.5549624!2d18.6955144!4m5!1s0x40d4cf4ee15a4505%3A0xa013ea0b6c4b7dc5!2zMDIwMDAsINCa0LjRl9Cy!3m2!1d50.4501!2d30.5234!5e0!3m2!1suk!2sua!4v1567267195124!5m2!1suk!2sua",
     "articles": [
         {
-            "date": "",
-            "dateend": "",
             "name": "Подготовка",
             "country": [],
             "city": "",
-            "tag": [],
-            "map": "",
-            "description": "",
-            "descriptionarticle": "article_preparation",
-            "foto": "",
-            "video": [],
-            "videoroad": []
+            "tag": [
+                "preparation"
+            ],
+            "descriptionarticle": "article_preparation"
         },
         {
             "date": "20.07.2019",
-            "name": "Road: Украина Киев - Romania Medias",
+            "name": "Road: Киев Украина - Medias Romania",
             "country": [
                 "Ukraine",
                 "Romania"
@@ -41,12 +36,700 @@
                 "road"
             ],
             "map": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2718397.0689250017!2d25.203375569175932!3d48.289682657512316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNGX0LIsIDAyMDAw!3m2!1d50.4501!2d30.5234!4m5!1s0x474b8ef025ac69cf%3A0xd85c7cb09cd9a82f!2sMedia%C8%99%2C%20Romania!3m2!1d46.1572828!2d24.3471665!5e0!3m2!1suk!2sua!4v1567267291458!5m2!1suk!2sua",
+            "foto": "20190720_Road",
+            "videoroad": []
+        },
+        {
+            "date": "20.07.2019",
+            "dateend": "23.07.2019",
+            "name": "Hotel: Apartments Dan Mija",
+            "country": [
+                "Romania"
+            ],
+            "city": "Medias",
+            "tag": [
+                "hotel"
+            ],
+            "link": "https://www.booking.com/hotel/ro/dan-mija.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=452193d8a34eaccee9bb983c36a95ee2",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1381.5564239938037!2d24.35876397653097!3d46.16840929295393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474b8eee6f350c61%3A0x80c0c692ac9d5673!2zU3RyYWRhIEdlb3JnZSBUb3DDonJjZWFudSAxNywgTWVkaWHImSwg0KDRg9C80YPQvdGW0Y8!5e0!3m2!1suk!2sua!4v1567332393194!5m2!1suk!2sua",
             "description": "",
             "descriptionarticle": "",
-            "foto": "20190720_Road",
+            "foto": "20190720_23_Hotel_Medias"
+        },
+        {
+            "date": "21.07.2019",
+            "name": "Transfagarasan Road",
+            "country": [
+                "Romania"
+            ],
+            "city": "",
+            "tag": [
+                "sign",
+                "mountains"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d391058.3515952004!2d24.45451887138694!3d45.39910705314713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474cddaa384c96af%3A0x50517e7abd608737!2zVHJhbnNmxINnxINyxIPImWFuLCDQoNGD0LzRg9C90ZbRjw!5e0!3m2!1suk!2sua!4v1567332600389!5m2!1suk!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190721_Romania_Transfagarasan",
             "video": [
-                ""
+                "https://youtu.be/M2iTAsKcYjk",
+                "https://youtu.be/kZvFfEhbEow",
+                "https://youtu.be/Dwif5DMgZIM",
+                "https://youtu.be/PyaIntR0Wbk",
+                "https://youtu.be/jm8MiOlLcAg",
+                "https://youtu.be/p20EM8RBxoI",
+                "https://youtu.be/MONz_6KXdGo",
+                "https://youtu.be/W7R0s3HYgyY",
+                "https://youtu.be/C6x29T6RxTk",
+                "https://youtu.be/bqP5bffum4E",
+                "https://youtu.be/QYzrDBPRveM",
+                "https://youtu.be/6wZiQt64aUA",
+                "https://youtu.be/TremJJ_X4-8",
+                "https://youtu.be/Sn32C6YOZsg"
+            ],
+            "videoroad": [
+                "https://youtu.be/-cMkzZpCGKM"
             ]
+        },
+        {
+            "date": "22.07.2019",
+            "name": "Salina Turda",
+            "country": [
+                "Romania"
+            ],
+            "city": "Turda",
+            "tag": [
+                "sign"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2741.980993156961!2d23.78490116579484!3d46.58761311580024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474968b385bfc665%3A0xd47e573765edc10c!2z0KHQvtC70Y_QvdCwINC60L7Qv9Cw0LvRjNC90Y8g0YMg0LzRltGB0YLRliDQotGD0YDQtNCw!5e0!3m2!1suk!2sua!4v1567274087852!5m2!1suk!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190722_Romania_Salina_Turda",
+            "video": [
+                "https://youtu.be/3MZrpju2vZc",
+                "https://youtu.be/Wc-cAxCsUnA",
+                "https://youtu.be/aOJ9J94ExVY",
+                "https://youtu.be/enY1v5Y8NF4",
+                "https://youtu.be/pb_TM8xBLPU",
+                "https://youtu.be/1bX4hE3U5GM",
+                "https://youtu.be/8MAmqbdbi1s",
+                "https://youtu.be/py5PhdIjipI",
+                "https://youtu.be/cSxQhdkS5Sg"
+            ],
+            "videoroad": []
+        },
+        {
+            "date": "23.07.2019",
+            "name": "Road: Medias - Targu Jiu, Transalpina Road",
+            "country": [
+                "Romania"
+            ],
+            "city": "",
+            "tag": [
+                "sigh",
+                "mountains"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m40!1m12!1m3!1d714801.554495878!2d23.265562943439804!3d45.58665329185458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m25!3e0!4m5!1s0x474b8ef025ac69cf%3A0xd85c7cb09cd9a82f!2z0JzQtdC00ZbQsNGILCDQoNGD0LzRg9C90ZbRjw!3m2!1d46.1572828!2d24.3471665!4m5!1s0x474c310b15e3213f%3A0x2875b9537e6acee6!2sT%C4%83u%20Bistra%2C%20Romania!3m2!1d45.6799134!2d23.589929899999998!4m5!1s0x474da324080d6d13%3A0x3e000e73598a84c3!2zUsOibmNhLCDQoNGD0LzRg9C90ZbRjw!3m2!1d45.2909527!2d23.6920054!4m5!1s0x474d8a3b55c0f105%3A0xce6f02b47345c4ce!2zQ2FsZWEgQnVjdXJlyJl0aSAxNywgVMOicmd1IEppdSwg0KDRg9C80YPQvdGW0Y8!3m2!1d45.038571999999995!2d23.304774899999998!5e0!3m2!1suk!2sua!4v1567333831551!5m2!1suk!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190723_Romania_Transalpina",
+            "video": [
+                "https://youtu.be/prsxDa5-afI",
+                "https://youtu.be/vq1_oqXFqT0",
+                "https://youtu.be/-b8SS5pFHpk",
+                "https://youtu.be/6FAAPGsjNOA",
+                "https://youtu.be/xAKfo55Q1c8",
+                "https://youtu.be/TLDydqzJwlI",
+                "https://youtu.be/TtC0uISFcrU",
+                "https://youtu.be/uA4snu37E4w",
+                "https://youtu.be/8bBC1UsuCas",
+                "https://youtu.be/tDBUQri4kOA"
+            ],
+            "videoroad": []
+        },
+        {
+            "date": "23.07.2019",
+            "dateend": "24.07.2019",
+            "name": "Hotel: Pensiunea Jacqueline",
+            "country": [
+                "Romania"
+            ],
+            "city": "Targu Jiu",
+            "tag": [
+                "hotel"
+            ],
+            "link": "https://www.booking.com/hotel/ro/pensiunea-jacqueline.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=452193d8a34eaccee9bb983c36a95ee2",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2819.3274910005384!2d23.302586215756335!3d45.03857576976279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474d8a3b55c0f105%3A0xce6f02b47345c4ce!2zQ2FsZWEgQnVjdXJlyJl0aSAxNywgVMOicmd1IEppdSwg0KDRg9C80YPQvdGW0Y8!5e0!3m2!1suk!2sua!4v1567333227051!5m2!1suk!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190723_24_Hotel_Targu_Jiu",
+            "video": []
+        },
+        {
+            "date": "24.07.2019",
+            "name": "Road: Targu Jiu Romania - Belgrade Serbia",
+            "country": [
+                "Romania",
+                "Serbia"
+            ],
+            "city": "",
+            "tag": [
+                "road"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1452085.683962824!2d20.791666789195922!3d44.69705821363948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x474d8a3b55c0f105%3A0xce6f02b47345c4ce!2zQ2FsZWEgQnVjdXJlyJl0aSAxNywgVMOicmd1IEppdSwg0KDRg9C80YPQvdGW0Y8!3m2!1d45.038571999999995!2d23.304774899999998!4m5!1s0x475a71eb346ae3e3%3A0xbd81671f3b71d26f!2z0JvRg9C60LUg0JLQvtGY0LLQvtC00LjRm9CwIDI1biwg0JHQtdC-0LPRgNCw0LQsINCh0LXRgNCx0ZbRjw!3m2!1d44.748394!2d20.433014999999997!5e0!3m2!1suk!2sua!4v1567334090188!5m2!1suk!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190724_Road_Romania_Serbia",
+            "video": [
+                "https://youtu.be/JOhyt0X6TTw",
+                "https://youtu.be/t13vB6UyoR0"
+            ],
+            "videoroad": []
+        },
+        {
+            "date": "24.07.2019",
+            "dateend": "25.07.2019",
+            "name": "Hotel: Orasac",
+            "country": [
+                "Serbia"
+            ],
+            "city": "Belgrade",
+            "tag": [
+                "hotel"
+            ],
+            "link": "https://www.booking.com/hotel/rs/orasac.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=452193d8a34eaccee9bb983c36a95ee2",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.5891688193446!2d20.43082631574927!3d44.748397788938895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x39ad051a57c6f7fb!2sHotel%20Orasac!5e0!3m2!1sen!2sua!4v1567334035141!5m2!1sen!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190724_25_Hotel_Belgrade",
+            "video": []
+        },
+        {
+            "date": "25.07.2019",
+            "name": "Belgrade",
+            "country": [
+                "Serbia"
+            ],
+            "city": "Belgrade",
+            "tag": [],
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190725_Belgrad_Serbia",
+            "video": [
+                "https://youtu.be/5w7OSVtQ5LM",
+                "https://youtu.be/DGF7iw3YWPQ"
+            ]
+        },
+        {
+            "date": "25.07.2019",
+            "name": "Museum of Illusions",
+            "country": [
+                "Serbia"
+            ],
+            "city": "Belgrade",
+            "tag": [
+                "sign"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9519.935075631653!2d20.456485604921866!3d44.815582360073265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7b6278bc7f63%3A0x60b73bd81205dd9e!2sMuzej%20iluzija!5e0!3m2!1suk!2sua!4v1567274224207!5m2!1suk!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190725_Belgrad_Serbia_Illuzion",
+            "video": [
+                "https://youtu.be/PeOecEucA1U",
+                "https://youtu.be/Ki5D881TXvA",
+                "https://youtu.be/FHak1q20PE0"
+            ]
+        },
+        {
+            "date": "26.07.2019",
+            "name": "Road: Belgrade Serbia - Skopje Makedonia",
+            "country": [
+                "Serbia",
+                "Makedonia"
+            ],
+            "city": "",
+            "tag": [
+                "road"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1484797.8356576075!2d19.991689958924503!3d43.37711243256045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x475a71eb346ae3e3%3A0xbd81671f3b71d26f!2z0JvRg9C60LUg0JLQvtGY0LLQvtC00LjRm9CwIDI1biwg0JHQtdC-0LPRgNCw0LQsINCh0LXRgNCx0ZbRjw!3m2!1d44.748394!2d20.433014999999997!4m5!1s0x135415bc7315d887%3A0x902a9021f1cdbad6!2zQWxleGFuZGFyIFNxdWFyZSBCb3V0aXF1ZSBIb3RlbCwg0J3QuNC60L7Qu9CwINCS0LDQv9GG0LDRgNC-0LIsINCh0LrQvtC_J9GULCDQnNCw0LrQtdC00L7QvdGW0Y8gKNCa0L7Qu9C40YjQvdGPINCu0LPQvtGB0LvQsNCy0YHRjNC60LAg0KDQtdGB0L_Rg9Cx0LvRltC60LAg0JzQsNC60LXQtNC-0L3RltGPKQ!3m2!1d41.995017999999995!2d21.429703!5e0!3m2!1suk!2sua!4v1567334631660!5m2!1suk!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190726_Road_Serbia_Makedonia",
+            "videoroad": []
+        },
+        {
+            "date": "26.07.2019",
+            "dateend": "27.07.2019",
+            "name": "Hotel: Alexandar Central Apartments",
+            "country": [
+                "Makedonia"
+            ],
+            "city": "Skopje",
+            "tag": [
+                "hotel"
+            ],
+            "link": "https://www.booking.com/hotel/mk/alexandar-bed-amp-breakfast.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=452193d8a34eaccee9bb983c36a95ee2",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.2447807616436!2d21.42751431568436!3d41.99502196606765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135415bc7315d887%3A0x902a9021f1cdbad6!2sAlexandar%20Square%20Boutique%20Hotel!5e0!3m2!1sen!2sua!4v1567334548560!5m2!1sen!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190726_Makedonia_Hotel",
+            "video": []
+        },
+        {
+            "date": "26.07.2019",
+            "dateend": "27.07.2019",
+            "name": "Skopje",
+            "country": [
+                "Makedonia"
+            ],
+            "city": "Skopje",
+            "tag": [
+                "city"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47440.84007776669!2d21.389870879382645!3d41.99914871464769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135415a58c9aa2a5%3A0xb2ed88c260872020!2sSkopje%2C%20North%20Macedonia!5e0!3m2!1sen!2sua!4v1567334703702!5m2!1sen!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190727_Makedonia",
+            "video": [
+                "https://youtu.be/VLv35ZJgS9M",
+                "https://youtu.be/lgQuT1HoAEo",
+                "https://youtu.be/UwrIw2zHMtk",
+                "https://youtu.be/_1vpzrBHo0M",
+                "https://youtu.be/XY4tiUOWu3k",
+                "https://youtu.be/tiEuUZfOQLg",
+                "https://youtu.be/3qo6OaLWv10",
+                "https://youtu.be/SI7irj6no2w",
+                "https://youtu.be/k81JrjYOaE0",
+                "https://youtu.be/0LIHgfi4Nq8"
+            ]
+        },
+        {
+            "date": "28.07.2019",
+            "name": "Road Makedonia Albania",
+            "country": [
+                "Makedonia",
+                "Albania"
+            ],
+            "city": "",
+            "tag": [
+                "road"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1538317.2890523686!2d19.96279441760984!3d41.1448733557609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x135415bc7315d887%3A0x902a9021f1cdbad6!2zQWxleGFuZGFyIFNxdWFyZSBCb3V0aXF1ZSBIb3RlbCwg0J3QuNC60L7Qu9CwINCS0LDQv9GG0LDRgNC-0LIsINCh0LrQvtC_J9GULCDQnNCw0LrQtdC00L7QvdGW0Y8gKNCa0L7Qu9C40YjQvdGPINCu0LPQvtGB0LvQsNCy0YHRjNC60LAg0KDQtdGB0L_Rg9Cx0LvRltC60LAg0JzQsNC60LXQtNC-0L3RltGPKQ!3m2!1d41.995017999999995!2d21.429703!4m5!1s0x134533c58e94a0c9%3A0xea811bf96967cedc!2zUnJ1Z2EgU2h5cXlyaSBBbGkgTWVya2EsIFZsb3LDqywg0JDQu9Cx0LDQvdGW0Y8!3m2!1d40.4518352!2d19.4890678!5e0!3m2!1suk!2sua!4v1567436981216!5m2!1suk!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190728_Road_Makedonia_Albania",
+            "video": [],
+            "videoroad": []
+        },
+        {
+            "date": "28.07.2019",
+            "dateend": "01.08.2019",
+            "name": "Hotel: Appartamentto Giallo",
+            "country": [
+                "Albania"
+            ],
+            "city": "Vlora",
+            "tag": [
+                "hotel"
+            ],
+            "link": "https://www.booking.com/hotel/al/appartametto-giallo.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=be2a480750fd1f11751a0323200c3a9c",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.0587055542887!2d19.48776640089335!3d40.4518376199133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134533c58e94a0c9%3A0xea811bf96967cedc!2zUnJ1Z2EgU2h5cXlyaSBBbGkgTWVya2EsIFZsb3LDqywg0JDQu9Cx0LDQvdGW0Y8!5e0!3m2!1suk!2sua!4v1567436903364!5m2!1suk!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190728_Albania_Hotel",
+            "video": [
+                "https://youtu.be/N1DEO8aOyU0",
+                "https://youtu.be/Mlja50eT2HA"
+            ]
+        },
+        {
+            "date": "28.07.2019",
+            "dateend": "01.08.2019",
+            "name": "Vlore",
+            "country": [
+                "Albania"
+            ],
+            "city": "Vlora",
+            "tag": [
+                "sea"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48577.63656533458!2d19.44648697032027!3d40.4508730311282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134533f1e8cc1895%3A0xd31099af13e0e86!2z0JLQu9GM0L7RgNCwLCDQkNC70LHQsNC90ZbRjw!5e0!3m2!1suk!2sua!4v1567274274745!5m2!1suk!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190729_Albania",
+            "video": [
+                "https://youtu.be/nbbUTCVQy5U",
+                "https://youtu.be/EsaxMBHcDPo",
+                "https://youtu.be/bFSOovjqD7s",
+                "https://youtu.be/VvIEsrD4eQY",
+                "https://youtu.be/kdmTM58wQas",
+                "https://youtu.be/1m6tIB3q0Fs",
+                "https://youtu.be/rJyE7_S5ZWg",
+                "https://youtu.be/m1UAbaRUCZw",
+                "https://youtu.be/07B9PYsmDmM",
+                "https://youtu.be/8GkROpOnNMs"
+            ]
+        },
+        {
+            "date": "01.08.2019",
+            "name": "Road Albania - Montenegro",
+            "country": [
+                "Albania",
+                "Montenegro"
+            ],
+            "city": "Medias",
+            "tag": [
+                "hotel"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d767939.236099602!2d18.8681280577118!3d41.248727967567255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x134533c58e94a0c9%3A0xea811bf96967cedc!2zUnJ1Z2EgU2h5cXlyaSBBbGkgTWVya2EsIFZsb3LDqywg0JDQu9Cx0LDQvdGW0Y8!3m2!1d40.4518352!2d19.4890678!4m5!1s0x134e73d1fd51ef51%3A0x1e746d2201aad46b!2zQXBhcnRtZW50cyBQYWxtYSwg0KfQvtGA0L3QvtCz0L7RgNGW0Y8!3m2!1d42.0327232!2d19.1426271!5e0!3m2!1suk!2sua!4v1567437194503!5m2!1suk!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190801_Road_Albania_Montenegro",
+            "video": [
+                "https://youtu.be/SZnvNtOpFc8"
+            ],
+            "videoroad": [
+                "https://youtu.be/YoKNsIT-KaY"
+            ]
+        },
+        {
+            "date": "01.08.2019",
+            "name": "Llogara Pass",
+            "country": [
+                "Albania"
+            ],
+            "city": "",
+            "tag": [
+                "sign",
+                "mountains"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12191.158513130451!2d19.603879440983775!3d40.19149496166394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135b2af90605d321%3A0x7cbad4f1586d1e91!2sQafa%20e%20Llogorase!5e0!3m2!1suk!2sua!4v1567274354210!5m2!1suk!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190801_Albania_Llogara_Pass",
+            "video": [
+                "https://youtu.be/y60S3BBFhCc",
+                "https://youtu.be/PEFK0oblo8c",
+                "https://youtu.be/XQ4vw0_o9eE",
+                "https://youtu.be/pZuSYftlWKI",
+                "https://youtu.be/65J5DHLhol8",
+                "https://youtu.be/t2Neu_0eET8",
+                "https://youtu.be/ogBZO5R1W-I",
+                "https://youtu.be/gjgu9R-elj8",
+                "https://youtu.be/aDVEM6Kp7mY"
+            ]
+        },
+        {
+            "date": "01.08.2019",
+            "name": "Albania Tirana",
+            "country": [
+                "Albania"
+            ],
+            "city": "Tirana",
+            "tag": [
+                "city"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47935.68508845141!2d19.782803825431202!3d41.33104134448885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1350310470fac5db%3A0x40092af10653720!2z0KLRltGA0LDQvdCwLCDQkNC70LHQsNC90ZbRjw!5e0!3m2!1suk!2sua!4v1567274437621!5m2!1suk!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190801_Albania_Tirana",
+            "video": []
+        },
+        {
+            "date": "01.08.2019",
+            "dateend": "05.08.2019",
+            "name": "Hotel: Apartments Palma",
+            "country": [
+                "Montenegro"
+            ],
+            "city": "Dobra Voda",
+            "tag": [
+                "hotel"
+            ],
+            "link": "https://www.booking.com/hotel/me/apartmani-kalamperovia.uk.html?tab=4;rid=1606474651;aid=1213434;label=metagha-link-reviewsUA-hotel-443318_dev-desktop_los-1_lang-uk;checkin=2019-10-08;checkout=2019-10-09;lang=uk;utm_source=metagha;utm_medium=reviews;utm_campaign=UA;utm_term=hotel-mapresults;utm_content=los-1_lang-uk;advance_booking_window=37#tab-main",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230533.23099259366!2d19.07237826566095!3d42.16425882879307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1e746d2201aad46b!2sApartments%20Palma!5e0!3m2!1suk!2sua!4v1567331543100!5m2!1suk!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190801_05_Montenegro_Hotel",
+            "video": []
+        },
+        {
+            "date": "01.08.2019",
+            "dateend": "05.08.2019",
+            "name": "Dobra Voda",
+            "country": [
+                "Montenegro"
+            ],
+            "city": "Dobra Voda",
+            "tag": [
+                "sea"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23702.463808706965!2d19.126360377100013!3d42.047297838174124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134e72f20b6aa069%3A0xed8bf19d12232007!2sDobra%20Voda%2C%20Montenegro!5e0!3m2!1sen!2sua!4v1567443885254!5m2!1sen!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190801_05_Montenegro",
+            "video": [
+                "https://youtu.be/9WW8JPlX6VI",
+                "https://youtu.be/MqRcwzQFHOY",
+                "https://youtu.be/EYC6VpilvL8",
+                "https://youtu.be/Ej584LzLWfk"
+            ]
+        },
+        {
+            "date": "03.08.2019",
+            "name": "P16",
+            "country": [
+                "Montenegro"
+            ],
+            "city": "",
+            "tag": [
+                "sign",
+                "mountains"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m46!1m12!1m3!1d189387.1659029238!2d19.05873541901479!3d42.12514810760053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m31!3e0!4m5!1s0x134e72f20b6aa069%3A0xed8bf19d12232007!2sDobra%20Voda%2C%20Montenegro!3m2!1d42.048572799999995!2d19.143410799999998!4m5!1s0x134e0fafc008a00b%3A0xae02899b861508c2!2z0JLQu9Cw0LTQuNC80LjRgCwgTW9udGVuZWdybw!3m2!1d42.005368399999995!2d19.309917!4m5!1s0x134e0a833f0a916d%3A0xce36d11d3a044b75!2sBesa%2C%20Montenegro!3m2!1d42.1472342!2d19.2244264!4m5!1s0x134ddbfac39e046d%3A0x91bab10976a85000!2z0JLQuNGA0L_QsNC30LDRgCwgTW9udGVuZWdybw!3m2!1d42.238938!2d19.089904!4m5!1s0x134e72f20b6aa069%3A0xed8bf19d12232007!2sDobra%20Voda%2C%20Montenegro!3m2!1d42.048572799999995!2d19.143410799999998!5e0!3m2!1sen!2sua!4v1567443807513!5m2!1sen!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190803_Montenegro_P16",
+            "video": [
+                "https://youtu.be/GJhbLl1Gma8",
+                "https://youtu.be/i26tjDabiO0",
+                "https://youtu.be/_lAv5oHumNQ",
+                "https://youtu.be/wl2wahu7IDM",
+                "https://youtu.be/GTAv3PwxFDU",
+                "https://youtu.be/-AusRZLsJOU",
+                "https://youtu.be/o_McJ6ac5Bs"
+            ],
+            "videoroad": []
+        },
+        {
+            "date": "05.08.2019",
+            "name": "Road: Montenegro - Bosnia and Herzegovina",
+            "country": [
+                "Montenegro",
+                "Bosnia and Herzegovina"
+            ],
+            "city": "",
+            "tag": [
+                "road"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m46!1m12!1m3!1d750687.5463552683!2d17.973867197378887!3d42.695817374773505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m31!3e0!4m5!1s0x134e72f20b6aa069%3A0xed8bf19d12232007!2sDobra%20Voda%2C%20Montenegro!3m2!1d42.048572799999995!2d19.143410799999998!4m5!1s0x134e7506dc5d63dd%3A0xf22d8cf5931498e!2sTudjemili%2C%20Montenegro!3m2!1d42.1330013!2d19.1448972!4m5!1s0x134dd8cadb1de61d%3A0xd83d93e66f397357!2z0JvQuNC80ZnQsNC90LgsIE1vbnRlbmVncm8!3m2!1d42.194132599999996!2d19.094362699999998!4m5!1s0x134de8079606867d%3A0x6bf78a76ea588ae9!2sPodgorica%2C%20Montenegro!3m2!1d42.4304196!2d19.2593642!4m5!1s0x134b43a43b6340a9%3A0x14f32b2d4e37c5a!2sMostar%2088000%2C%20Bosnia%20and%20Herzegovina!3m2!1d43.3437748!2d17.8077578!5e0!3m2!1sen!2sua!4v1567443633446!5m2!1sen!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190805_Road_Montenegro_Bosnia",
+            "video": [
+                "https://youtu.be/gtFrv42zUgM",
+                "https://youtu.be/hbpseMsUvUQ"
+            ],
+            "videoroad": []
+        },
+        {
+            "date": "05.08.2019",
+            "dateend": "07.08.2019",
+            "name": "Hotel: Motel Deny",
+            "country": [
+                "Bosnia and Herzegovina"
+            ],
+            "city": "Mostar",
+            "tag": [
+                "hotel"
+            ],
+            "link": "",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d219837.63157092215!2d17.756657391656958!3d43.43035289997824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa7ec9a5964839dd6!2sMotel%20Deny!5e0!3m2!1suk!2sua!4v1567330977529!5m2!1suk!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190805_07_Mostar_Bosnia_Hotel",
+            "video": [
+                "https://youtu.be/yz90pUM63OI",
+                "https://youtu.be/9eMC155H_AA",
+                "https://youtu.be/xEYmvKYhmVk"
+            ]
+        },
+        {
+            "date": "05.08.2019",
+            "dateend": "07.08.2019",
+            "name": "Mostar",
+            "country": [
+                "Bosnia and Herzegovina"
+            ],
+            "city": "Mostar",
+            "tag": [
+                "hotel"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27606.88392222246!2d17.801895742846487!3d43.33903471841346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134b43a43b6340a9%3A0x14f32b2d4e37c5a!2sMostar%2088000%2C%20Bosnia%20and%20Herzegovina!5e0!3m2!1sen!2sua!4v1567443407842!5m2!1sen!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190805_07_Bosnia_Mostar",
+            "video": [
+                "https://youtu.be/ZD1nYMPyiEQ"
+            ]
+        },
+        {
+            "date": "07.08.2019",
+            "name": "Road: Bosnia and Herzegovina - Croatia",
+            "country": [
+                "Bosnia and Herzegovina",
+                "Croatia"
+            ],
+            "city": "",
+            "tag": [
+                "road"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d1458097.7223141424!2d17.086248662913142!3d44.45680610701277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x134b43a43b6340a9%3A0x14f32b2d4e37c5a!2z0JzQvtGB0YLQsNGALCDQkdC-0YHQvdGW0Y8g0ZYg0JPQtdGA0YbQtdKR0L7QstC40L3QsA!3m2!1d43.3437748!2d17.8077578!4m5!1s0x4758cbb1ed719bd1%3A0x562ecda6de87b33e!2sSarajevo%2C%20Bosnia%20and%20Herzegovina!3m2!1d43.8562586!2d18.4130763!4m5!1s0x475ce7a869728075%3A0x5b8c725621a41195!2z0J7RgdGW0ZTQuiwg0KXQvtGA0LLQsNGC0ZbRjw!3m2!1d45.5549624!2d18.6955144!5e0!3m2!1sen!2sua!4v1567443299498!5m2!1sen!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190807_Road_Bosnia_Croatia",
+            "video": [],
+            "videoroad": [
+                "https://youtu.be/4a6BfZr6IKM",
+                "https://youtu.be/upnhfUemBp4",
+                "https://youtu.be/_vZIdqD-f2Q"
+            ]
+        },
+        {
+            "date": "07.08.2019",
+            "dateend": "09.08.2019",
+            "name": "Hotel: Apartment Gubec",
+            "country": [
+                "Croatia"
+            ],
+            "city": "Osijec",
+            "tag": [
+                "hotel"
+            ],
+            "link": "https://www.booking.com/hotel/hr/apartment-gubec.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=be2a480750fd1f11751a0323200c3a9c",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.8099761228427!2d18.721641915769062!3d45.554148035457615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ce7d8f0ffc7ff%3A0xf055a7305b4a432c!2sApartman%20Gubec%2C%20Ul.%20Matije%20Gupca%2C%2031000%2C%20Osijek%2C%20Croatia!5e0!3m2!1sen!2sua!4v1567351686878!5m2!1sen!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190807_Croatia_Hotel",
+            "video": [
+                "https://youtu.be/ggA_uWb88c0",
+                "https://youtu.be/Fyos88Ht7pI"
+            ]
+        },
+        {
+            "date": "07.08.2019",
+            "dateend": "09.08.2019",
+            "name": "Osijec Croatia",
+            "country": [
+                "Croatia"
+            ],
+            "city": "Osijec",
+            "tag": [
+                "city"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44707.13282544208!2d18.65383950137743!3d45.546386560669056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ce7a869728075%3A0x5b8c725621a41195!2sOsijek%2C%20Croatia!5e0!3m2!1sen!2sua!4v1567337975189!5m2!1sen!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190808_Croatia",
+            "video": [
+                "https://youtu.be/HW5gZQXmgzA"
+            ]
+        },
+        {
+            "date": "09.08.2019",
+            "name": "Road: Croatia - Hungary",
+            "country": [
+                "Croatia",
+                "Hungary"
+            ],
+            "city": "Medias",
+            "tag": [
+                "hotel"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1400844.6782668387!2d19.230724319334115!3d46.70524588690601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x475ce7a869728075%3A0x5b8c725621a41195!2z0J7RgdGW0ZTQuiwg0KXQvtGA0LLQsNGC0ZbRjw!3m2!1d45.5549624!2d18.6955144!4m5!1s0x474780658196297d%3A0x4a203826ba6bc916!2zTnnDrXJiw6F0b3IsIDQzMDAgSHVuZ2FyeQ!3m2!1d47.8390013!2d22.130817999999998!5e0!3m2!1sen!2sua!4v1567443210623!5m2!1sen!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "",
+            "video": [],
+            "videoroad": []
+        },
+        {
+            "date": "09.08.2019",
+            "dateend": "10.08.2019",
+            "name": "Hotel: Palma",
+            "country": [
+                "Hungary"
+            ],
+            "city": "Nyírbátor",
+            "link": "https://www.booking.com/hotel/hu/pa-lma-nyarba-tor.uk.html?aid=389185;label=metagha-link-mapresultsUA-hotel-589169_dev-desktop_los-1_bw-31_dow-Wednesday_defdate-1_room-0_lang-uk_curr-UAH_gstadt-2_rateid-0_aud-623098873_cid-72_gacid-1313688025;sid=40f51ea81b4381052325b027a73ed08d;all_sr_blocks=58916901_105976065_2_1_0;bhgwe_cep=1;checkin=2019-10-02;checkout=2019-10-03;dest_id=-863007;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=58916901_105976065_2_1_0;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1567330821;srpvid=0ed6440250af0156;type=total;ucfs=1&#hotelTmpl",
+            "tag": [
+                "hotel"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122179.04770240201!2d22.06703997935535!3d47.865050745954164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x72a3fa364672857!2sPalm%20Spa%20Hotel!5e0!3m2!1suk!2sua!4v1567330543595!5m2!1suk!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190809_10_Hungary_Hotel",
+            "video": [
+                "https://youtu.be/CRpoMX-x7DY"
+            ]
+        },
+        {
+            "date": "09.08.2019",
+            "dateend": "10.08.2019",
+            "name": "Nyírbátor Hungary",
+            "country": [
+                "Hungary"
+            ],
+            "city": "Nyírbátor",
+            "tag": [],
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85717.89538937702!2d22.083021012958454!3d47.82633645240092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474780658196297d%3A0x4a203826ba6bc916!2zTnnDrXJiw6F0b3IsIDQzMDAgSHVuZ2FyeQ!5e0!3m2!1sen!2sua!4v1567443125928!5m2!1sen!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190809_Hungary",
+            "video": []
+        },
+        {
+            "date": "10.08.2019",
+            "name": "Road: Hungary - Ukraine",
+            "country": [
+                "Hungary",
+                "Ukraine"
+            ],
+            "city": "",
+            "tag": [
+                "road"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m40!1m12!1m3!1d676244.2101754566!2d22.786910905052054!3d48.54130038111809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m25!3e0!4m5!1s0x474780658196297d%3A0x4a203826ba6bc916!2zTnnDrXJiw6F0b3IsIEh1bmdhcnk!3m2!1d47.8390013!2d22.130817999999998!4m5!1s0x47385ad47881cd6d%3A0xac13c4a7900161b7!2sBerehove%2C%20Zakarpattia%20Oblast!3m2!1d48.1971868!2d22.6370954!4m5!1s0x4739043b98abfdb7%3A0x66a573abe680b102!2sSerednje%2C%20Zakarpattia%20Oblast!3m2!1d48.5412136!2d22.5089067!4m5!1s0x4730c9b50afe133d%3A0x2ec964b70892bae1!2sAmber%2C%20Vulytsya%20Petrasha%2C%202%D0%90%2C%20Bohorodchany%2C%20Ivano-Frankivs&#39;ka%20oblast%2C%2077700!3m2!1d48.8038479!2d24.535735!5e0!3m2!1sen!2sua!4v1567443073318!5m2!1sen!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "",
+            "video": [],
+            "videoroad": []
+        },
+        {
+            "date": "10.08.2019",
+            "dateend": "11.08.2019",
+            "name": "Hotel: Амбер",
+            "country": [
+                "Ukraine"
+            ],
+            "city": "Богородчаны",
+            "tag": [
+                "hotel"
+            ],
+            "link": "https://www.booking.com/hotel/ua/amber-amp-cafe.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=452193d8a34eaccee9bb983c36a95ee2",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8661.42284867995!2d24.52672083151286!3d48.80445199750106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ec964b70892bae1!2z0JDQvNCx0LXRgA!5e0!3m2!1suk!2sua!4v1567330315315!5m2!1suk!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190810_11_Ukraine_Hotel",
+            "video": []
+        },
+        {
+            "date": "11.08.2019",
+            "name": "Road: Богородчаны - Киев",
+            "country": [
+                "Ukraine"
+            ],
+            "city": "",
+            "tag": [
+                "road"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d1323212.1024944491!2d26.408447846098664!3d49.62794093602746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x4730c9b50afe133d%3A0x2ec964b70892bae1!2sAmber%2C%20Vulytsya%20Petrasha%2C%202%D0%90%2C%20Bohorodchany%2C%20Ivano-Frankivs&#39;ka%20oblast%2C%2077700!3m2!1d48.8038479!2d24.535735!4m5!1s0x473036ad4b82ce75%3A0xc484a447edb154e8!2z0KLQtdGA0L3QvtC_0L7Qu9GMLCBUZXJub3BpbCBPYmxhc3Q!3m2!1d49.553517!2d25.594766999999997!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2sKyiv%2C%2002000!3m2!1d50.4501!2d30.5234!5e0!3m2!1sen!2sua!4v1567442930986!5m2!1sen!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "20190811_Road_Ukraine_Back",
+            "video": [],
+            "videoroad": []
         }
     ]
 }
