@@ -309,7 +309,7 @@
         },
         {
             "date": "28.07.2019",
-            "name": "Road Makedonia Albania",
+            "name": "Road: Makedonia - Albania",
             "country": [
                 "Makedonia",
                 "Albania"
@@ -323,7 +323,9 @@
             "descriptionarticle": "",
             "foto": "20190728_Road_Makedonia_Albania",
             "video": [],
-            "videoroad": []
+            "videoroad": [
+                "https://youtu.be/jywBkR56Tw8"
+            ]
         },
         {
             "date": "28.07.2019",
@@ -376,7 +378,7 @@
         },
         {
             "date": "01.08.2019",
-            "name": "Road Albania - Montenegro",
+            "name": "Road: Albania - Montenegro",
             "country": [
                 "Albania",
                 "Montenegro"
@@ -737,7 +739,9 @@
             "descriptionarticle": "",
             "foto": "20190811_Road_Ukraine_Back",
             "video": [],
-            "videoroad": []
+            "videoroad": [
+                "https://youtu.be/I9sO4x0Eoy8"
+            ]
         }
     ]
 }
