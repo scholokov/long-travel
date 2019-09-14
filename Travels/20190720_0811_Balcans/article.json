@@ -50,7 +50,7 @@
             "tag": [
                 "hotel"
             ],
-            "link": "https://www.booking.com/hotel/ro/dan-mija.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=452193d8a34eaccee9bb983c36a95ee2",
+            "link_booking": "https://www.booking.com/hotel/ro/dan-mija.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=452193d8a34eaccee9bb983c36a95ee2",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1381.5564239938037!2d24.35876397653097!3d46.16840929295393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474b8eee6f350c61%3A0x80c0c692ac9d5673!2zU3RyYWRhIEdlb3JnZSBUb3DDonJjZWFudSAxNywgTWVkaWHImSwg0KDRg9C80YPQvdGW0Y8!5e0!3m2!1suk!2sua!4v1567332393194!5m2!1suk!2sua",
             "description": "",
             "descriptionarticle": "",
@@ -64,8 +64,9 @@
             ],
             "city": "",
             "tag": [
-                "sign",
-                "mountains"
+                "sight",
+                "mountains",
+                "road_sight"
             ],
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d391058.3515952004!2d24.45451887138694!3d45.39910705314713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474cddaa384c96af%3A0x50517e7abd608737!2zVHJhbnNmxINnxINyxIPImWFuLCDQoNGD0LzRg9C90ZbRjw!5e0!3m2!1suk!2sua!4v1567332600389!5m2!1suk!2sua",
             "description": "",
@@ -99,7 +100,7 @@
             ],
             "city": "Turda",
             "tag": [
-                "sign"
+                "sight"
             ],
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2741.980993156961!2d23.78490116579484!3d46.58761311580024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474968b385bfc665%3A0xd47e573765edc10c!2z0KHQvtC70Y_QvdCwINC60L7Qv9Cw0LvRjNC90Y8g0YMg0LzRltGB0YLRliDQotGD0YDQtNCw!5e0!3m2!1suk!2sua!4v1567274087852!5m2!1suk!2sua",
             "description": "",
@@ -110,13 +111,12 @@
                 "https://youtu.be/Wc-cAxCsUnA",
                 "https://youtu.be/aOJ9J94ExVY",
                 "https://youtu.be/enY1v5Y8NF4",
-                "https://youtu.be/pb_TM8xBLPU",
+                "https://youtu.be/Nk-yS35leHw",
                 "https://youtu.be/1bX4hE3U5GM",
                 "https://youtu.be/8MAmqbdbi1s",
                 "https://youtu.be/py5PhdIjipI",
                 "https://youtu.be/cSxQhdkS5Sg"
-            ],
-            "videoroad": []
+            ]
         },
         {
             "date": "23.07.2019",
@@ -127,7 +127,8 @@
             "city": "",
             "tag": [
                 "sigh",
-                "mountains"
+                "mountains",
+                "road_sight"
             ],
             "map": "https://www.google.com/maps/embed?pb=!1m40!1m12!1m3!1d714801.554495878!2d23.265562943439804!3d45.58665329185458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m25!3e0!4m5!1s0x474b8ef025ac69cf%3A0xd85c7cb09cd9a82f!2z0JzQtdC00ZbQsNGILCDQoNGD0LzRg9C90ZbRjw!3m2!1d46.1572828!2d24.3471665!4m5!1s0x474c310b15e3213f%3A0x2875b9537e6acee6!2sT%C4%83u%20Bistra%2C%20Romania!3m2!1d45.6799134!2d23.589929899999998!4m5!1s0x474da324080d6d13%3A0x3e000e73598a84c3!2zUsOibmNhLCDQoNGD0LzRg9C90ZbRjw!3m2!1d45.2909527!2d23.6920054!4m5!1s0x474d8a3b55c0f105%3A0xce6f02b47345c4ce!2zQ2FsZWEgQnVjdXJlyJl0aSAxNywgVMOicmd1IEppdSwg0KDRg9C80YPQvdGW0Y8!3m2!1d45.038571999999995!2d23.304774899999998!5e0!3m2!1suk!2sua!4v1567333831551!5m2!1suk!2sua",
             "description": "",
@@ -160,7 +161,7 @@
             "tag": [
                 "hotel"
             ],
-            "link": "https://www.booking.com/hotel/ro/pensiunea-jacqueline.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=452193d8a34eaccee9bb983c36a95ee2",
+            "link_booking": "https://www.booking.com/hotel/ro/pensiunea-jacqueline.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=452193d8a34eaccee9bb983c36a95ee2",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2819.3274910005384!2d23.302586215756335!3d45.03857576976279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474d8a3b55c0f105%3A0xce6f02b47345c4ce!2zQ2FsZWEgQnVjdXJlyJl0aSAxNywgVMOicmd1IEppdSwg0KDRg9C80YPQvdGW0Y8!5e0!3m2!1suk!2sua!4v1567333227051!5m2!1suk!2sua",
             "description": "",
             "descriptionarticle": "",
@@ -187,8 +188,7 @@
                 "https://youtu.be/t13vB6UyoR0"
             ],
             "videoroad": [
-                "https://youtu.be/pGBquAMk1Tg",
-                "https://youtu.be/JqPbirtMEwU"
+                "https://youtu.be/pGBquAMk1Tg"
             ]
         },
         {
@@ -202,7 +202,7 @@
             "tag": [
                 "hotel"
             ],
-            "link": "https://www.booking.com/hotel/rs/orasac.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=452193d8a34eaccee9bb983c36a95ee2",
+            "link_booking": "https://www.booking.com/hotel/rs/orasac.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=452193d8a34eaccee9bb983c36a95ee2",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.5891688193446!2d20.43082631574927!3d44.748397788938895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x39ad051a57c6f7fb!2sHotel%20Orasac!5e0!3m2!1sen!2sua!4v1567334035141!5m2!1sen!2sua",
             "description": "",
             "descriptionarticle": "",
@@ -216,7 +216,9 @@
                 "Serbia"
             ],
             "city": "Belgrade",
-            "tag": [],
+            "tag": [
+                "city"
+            ],
             "description": "",
             "descriptionarticle": "",
             "foto": "20190725_Belgrad_Serbia",
@@ -233,7 +235,7 @@
             ],
             "city": "Belgrade",
             "tag": [
-                "sign"
+                "sight"
             ],
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9519.935075631653!2d20.456485604921866!3d44.815582360073265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7b6278bc7f63%3A0x60b73bd81205dd9e!2sMuzej%20iluzija!5e0!3m2!1suk!2sua!4v1567274224207!5m2!1suk!2sua",
             "description": "",
@@ -261,7 +263,6 @@
             "descriptionarticle": "",
             "foto": "20190726_Road_Serbia_Makedonia",
             "videoroad": [
-                "https://youtu.be/ZDke_qYHoo0",
                 "https://youtu.be/JqPbirtMEwU"
             ]
         },
@@ -276,7 +277,7 @@
             "tag": [
                 "hotel"
             ],
-            "link": "https://www.booking.com/hotel/mk/alexandar-bed-amp-breakfast.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=452193d8a34eaccee9bb983c36a95ee2",
+            "link_booking": "https://www.booking.com/hotel/mk/alexandar-bed-amp-breakfast.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=452193d8a34eaccee9bb983c36a95ee2",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.2447807616436!2d21.42751431568436!3d41.99502196606765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135415bc7315d887%3A0x902a9021f1cdbad6!2sAlexandar%20Square%20Boutique%20Hotel!5e0!3m2!1sen!2sua!4v1567334548560!5m2!1sen!2sua",
             "description": "",
             "descriptionarticle": "",
@@ -328,8 +329,7 @@
             "foto": "20190728_Road_Makedonia_Albania",
             "video": [],
             "videoroad": [
-                "https://youtu.be/jywBkR56Tw8",
-                "https://youtu.be/ZDke_qYHoo0"
+                "https://youtu.be/jywBkR56Tw8"
             ]
         },
         {
@@ -343,7 +343,7 @@
             "tag": [
                 "hotel"
             ],
-            "link": "https://www.booking.com/hotel/al/appartametto-giallo.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=be2a480750fd1f11751a0323200c3a9c",
+            "link_booking": "https://www.booking.com/hotel/al/appartametto-giallo.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=be2a480750fd1f11751a0323200c3a9c",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.0587055542887!2d19.48776640089335!3d40.4518376199133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134533c58e94a0c9%3A0xea811bf96967cedc!2zUnJ1Z2EgU2h5cXlyaSBBbGkgTWVya2EsIFZsb3LDqywg0JDQu9Cx0LDQvdGW0Y8!5e0!3m2!1suk!2sua!4v1567436903364!5m2!1suk!2sua",
             "description": "",
             "descriptionarticle": "",
@@ -377,7 +377,7 @@
                 "https://youtu.be/1m6tIB3q0Fs",
                 "https://youtu.be/rJyE7_S5ZWg",
                 "https://youtu.be/m1UAbaRUCZw",
-                "https://youtu.be/07B9PYsmDmM",
+                "https://youtu.be/6IUYEKLQH2k",
                 "https://youtu.be/8GkROpOnNMs"
             ]
         },
@@ -400,7 +400,6 @@
                 "https://youtu.be/SZnvNtOpFc8"
             ],
             "videoroad": [
-                "https://youtu.be/YoKNsIT-KaY",
                 "https://youtu.be/_PAS5vUFmjM"
             ]
         },
@@ -412,8 +411,9 @@
             ],
             "city": "",
             "tag": [
-                "sign",
-                "mountains"
+                "sight",
+                "mountains",
+                "road_sight"
             ],
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12191.158513130451!2d19.603879440983775!3d40.19149496166394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135b2af90605d321%3A0x7cbad4f1586d1e91!2sQafa%20e%20Llogorase!5e0!3m2!1suk!2sua!4v1567274354210!5m2!1suk!2sua",
             "description": "",
@@ -458,7 +458,7 @@
             "tag": [
                 "hotel"
             ],
-            "link": "https://www.booking.com/hotel/me/apartmani-kalamperovia.uk.html?tab=4;rid=1606474651;aid=1213434;label=metagha-link-reviewsUA-hotel-443318_dev-desktop_los-1_lang-uk;checkin=2019-10-08;checkout=2019-10-09;lang=uk;utm_source=metagha;utm_medium=reviews;utm_campaign=UA;utm_term=hotel-mapresults;utm_content=los-1_lang-uk;advance_booking_window=37#tab-main",
+            "link_booking": "https://www.booking.com/hotel/me/apartmani-kalamperovia.uk.html?tab=4;rid=1606474651;aid=1213434;label=metagha-link-reviewsUA-hotel-443318_dev-desktop_los-1_lang-uk;checkin=2019-10-08;checkout=2019-10-09;lang=uk;utm_source=metagha;utm_medium=reviews;utm_campaign=UA;utm_term=hotel-mapresults;utm_content=los-1_lang-uk;advance_booking_window=37#tab-main",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230533.23099259366!2d19.07237826566095!3d42.16425882879307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1e746d2201aad46b!2sApartments%20Palma!5e0!3m2!1suk!2sua!4v1567331543100!5m2!1suk!2sua",
             "description": "",
             "descriptionarticle": "",
@@ -495,23 +495,26 @@
             ],
             "city": "",
             "tag": [
-                "sign",
-                "mountains"
+                "sight",
+                "mountains",
+                "road_sight"
             ],
             "map": "https://www.google.com/maps/embed?pb=!1m46!1m12!1m3!1d189387.1659029238!2d19.05873541901479!3d42.12514810760053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m31!3e0!4m5!1s0x134e72f20b6aa069%3A0xed8bf19d12232007!2sDobra%20Voda%2C%20Montenegro!3m2!1d42.048572799999995!2d19.143410799999998!4m5!1s0x134e0fafc008a00b%3A0xae02899b861508c2!2z0JLQu9Cw0LTQuNC80LjRgCwgTW9udGVuZWdybw!3m2!1d42.005368399999995!2d19.309917!4m5!1s0x134e0a833f0a916d%3A0xce36d11d3a044b75!2sBesa%2C%20Montenegro!3m2!1d42.1472342!2d19.2244264!4m5!1s0x134ddbfac39e046d%3A0x91bab10976a85000!2z0JLQuNGA0L_QsNC30LDRgCwgTW9udGVuZWdybw!3m2!1d42.238938!2d19.089904!4m5!1s0x134e72f20b6aa069%3A0xed8bf19d12232007!2sDobra%20Voda%2C%20Montenegro!3m2!1d42.048572799999995!2d19.143410799999998!5e0!3m2!1sen!2sua!4v1567443807513!5m2!1sen!2sua",
             "description": "",
             "descriptionarticle": "",
             "foto": "20190803_Montenegro_P16",
             "video": [
-                "https://youtu.be/GJhbLl1Gma8",
+                "https://youtu.be/7LwFRC0eeHc",
                 "https://youtu.be/i26tjDabiO0",
                 "https://youtu.be/_lAv5oHumNQ",
                 "https://youtu.be/wl2wahu7IDM",
                 "https://youtu.be/GTAv3PwxFDU",
-                "https://youtu.be/-AusRZLsJOU",
+                "https://youtu.be/cKCq0O9oyFs",
                 "https://youtu.be/o_McJ6ac5Bs"
             ],
-            "videoroad": []
+            "videoroad": [
+                "https://youtu.be/R6DZ5ECScZo"
+            ]
         },
         {
             "date": "05.08.2019",
@@ -547,7 +550,7 @@
             "tag": [
                 "hotel"
             ],
-            "link": "",
+            "link_booking": "https://www.booking.com/hotel/ba/motel-deny-mostar.en-gb.html?label=gen173nr-1FCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AEB6AEB-AELiAIBqAIDuAKQzPLrBcACAQ;sid=5f6e0365f9a6319edd34dfda10da1c83",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d219837.63157092215!2d17.756657391656958!3d43.43035289997824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa7ec9a5964839dd6!2sMotel%20Deny!5e0!3m2!1suk!2sua!4v1567330977529!5m2!1suk!2sua",
             "description": "",
             "descriptionarticle": "",
@@ -555,7 +558,8 @@
             "video": [
                 "https://youtu.be/yz90pUM63OI",
                 "https://youtu.be/9eMC155H_AA",
-                "https://youtu.be/xEYmvKYhmVk"
+                "https://youtu.be/xEYmvKYhmVk",
+                "https://youtu.be/1pE4XRoaUvU"
             ]
         },
         {
@@ -598,7 +602,7 @@
                 "https://youtu.be/_vZIdqD-f2Q"
             ],
             "videoroad": [
-                "https: //youtu.be/1XUBphR1Ec4"
+                "https://youtu.be/1XUBphR1Ec4"
             ]
         },
         {
@@ -612,7 +616,7 @@
             "tag": [
                 "hotel"
             ],
-            "link": "https://www.booking.com/hotel/hr/apartment-gubec.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=be2a480750fd1f11751a0323200c3a9c",
+            "link_booking": "https://www.booking.com/hotel/hr/apartment-gubec.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=be2a480750fd1f11751a0323200c3a9c",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.8099761228427!2d18.721641915769062!3d45.554148035457615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ce7d8f0ffc7ff%3A0xf055a7305b4a432c!2sApartman%20Gubec%2C%20Ul.%20Matije%20Gupca%2C%2031000%2C%20Osijek%2C%20Croatia!5e0!3m2!1sen!2sua!4v1567351686878!5m2!1sen!2sua",
             "description": "",
             "descriptionarticle": "",
@@ -637,7 +641,8 @@
             "description": "",
             "descriptionarticle": "",
             "foto": "20190808_Croatia",
-            "video": [
+            "video": [],
+            "videoroad": [
                 "https://youtu.be/HW5gZQXmgzA"
             ]
         },
@@ -669,7 +674,7 @@
                 "Hungary"
             ],
             "city": "Nyírbátor",
-            "link": "https://www.booking.com/hotel/hu/pa-lma-nyarba-tor.uk.html?aid=389185;label=metagha-link-mapresultsUA-hotel-589169_dev-desktop_los-1_bw-31_dow-Wednesday_defdate-1_room-0_lang-uk_curr-UAH_gstadt-2_rateid-0_aud-623098873_cid-72_gacid-1313688025;sid=40f51ea81b4381052325b027a73ed08d;all_sr_blocks=58916901_105976065_2_1_0;bhgwe_cep=1;checkin=2019-10-02;checkout=2019-10-03;dest_id=-863007;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=58916901_105976065_2_1_0;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1567330821;srpvid=0ed6440250af0156;type=total;ucfs=1&#hotelTmpl",
+            "link_booking": "https://www.booking.com/hotel/hu/pa-lma-nyarba-tor.uk.html?aid=389185;label=metagha-link-mapresultsUA-hotel-589169_dev-desktop_los-1_bw-31_dow-Wednesday_defdate-1_room-0_lang-uk_curr-UAH_gstadt-2_rateid-0_aud-623098873_cid-72_gacid-1313688025;sid=40f51ea81b4381052325b027a73ed08d;all_sr_blocks=58916901_105976065_2_1_0;bhgwe_cep=1;checkin=2019-10-02;checkout=2019-10-03;dest_id=-863007;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=58916901_105976065_2_1_0;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1567330821;srpvid=0ed6440250af0156;type=total;ucfs=1&#hotelTmpl",
             "tag": [
                 "hotel"
             ],
@@ -689,7 +694,9 @@
                 "Hungary"
             ],
             "city": "Nyírbátor",
-            "tag": [],
+            "tag": [
+                "city"
+            ],
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85717.89538937702!2d22.083021012958454!3d47.82633645240092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474780658196297d%3A0x4a203826ba6bc916!2zTnnDrXJiw6F0b3IsIDQzMDAgSHVuZ2FyeQ!5e0!3m2!1sen!2sua!4v1567443125928!5m2!1sen!2sua",
             "description": "",
             "descriptionarticle": "",
@@ -727,7 +734,7 @@
             "tag": [
                 "hotel"
             ],
-            "link": "https://www.booking.com/hotel/ua/amber-amp-cafe.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=452193d8a34eaccee9bb983c36a95ee2",
+            "link_booking": "https://www.booking.com/hotel/ua/amber-amp-cafe.uk.html?label=gen173nr-1DCAEoggI46AdIM1gEaOkBiAEBmAEpuAEXyAEM2AED6AEBiAIBqAIDuALRrq7rBcACAQ;sid=452193d8a34eaccee9bb983c36a95ee2",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8661.42284867995!2d24.52672083151286!3d48.80445199750106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ec964b70892bae1!2z0JDQvNCx0LXRgA!5e0!3m2!1suk!2sua!4v1567330315315!5m2!1suk!2sua",
             "description": "",
             "descriptionarticle": "",

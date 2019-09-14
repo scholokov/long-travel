@@ -132,6 +132,11 @@
                                         $dateend = '';
                                     }
                     echo            '<h3>' . $result["date"] . $dateend . '</h3>' ;
+                    
+                    if ( $result["link_booking"] ) {
+                        echo            '<h3>' . '<a href="' .  $result["link_booking"] . '">Booking link</a>' . '</h3>' ;
+                    }
+
                     echo    '</article>'    ;
 
                     if ( $result["map"] ){
