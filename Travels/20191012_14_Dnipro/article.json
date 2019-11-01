@@ -1,0 +1,121 @@
+{
+    "date": "12.10.2019",
+    "dateend": "14.10.2019",
+    "name": "Днепр",
+    "country": [
+        "Ukraine"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d1327814.6567628891!2d31.673108980756773!3d49.45828298175694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!3m2!1d50.4501!2d30.5234!4m5!1s0x40dbe303fd08468f%3A0xa1cf3d5f2c11aba!2z0JTQvdC40L_RgNC-LCDQlNC90LXQv9GA0L7Qv9C10YLRgNC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNDkwMDA!3m2!1d48.464717!2d35.046183!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsINCz0L7RgNC-0LQg0JrQuNC10LI!3m2!1d50.4501!2d30.5234!5e0!3m2!1sru!2sua!4v1572619528115!5m2!1sru!2sua",
+    "articles": [
+        {
+            "date": "12.10.2019",
+            "name": "Road: Киев - Днепр",
+            "country": [
+                "Ukraine"
+            ],
+            "city": "",
+            "tag": [
+                "road"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1330005.8802533527!2d31.67455601594103!3d49.37735969194753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!3m2!1d50.4501!2d30.5234!4m5!1s0x40dbe303fd08468f%3A0xa1cf3d5f2c11aba!2z0JTQvdC40L_RgNC-LCDQlNC90LXQv9GA0L7Qv9C10YLRgNC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNDkwMDA!3m2!1d48.464717!2d35.046183!5e0!3m2!1sru!2sua!4v1572616113886!5m2!1sru!2sua",
+            "foto": "01_road"
+        },
+        {
+            "date": "12.10.2019",
+            "dateend": "14.10.2019",
+            "name": "Hotel: 2-room Apartment Lux near Centre Wi-Fi",
+            "country": [
+                "Ukraine"
+            ],
+            "city": "Dnipro",
+            "tag": [
+                "hotel"
+            ],
+            "link_booking": "https://www.booking.com/hotel/ua/vulitsia-naberezhna-peremogi-62-a.en-gb.html?aid=304142;label=gen173nr-1FCAEoggI46AdIM1gEaOkBiAEBmAEJuAEXyAEM2AEB6AEB-AELiAIBqAIDuAK_gfHtBcACAQ;sid=293ea118c51bed606cc271f5d88c9a4a",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.117185671371!2d35.06486231584246!3d48.435090638371136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbfcc5639cc655%3A0x7f603be0d4bfcffc!2sNaberezhna%20Peremohy%20St%2C%2062%2C%20Dnipropetrovs&#39;k%2C%20Dnipropetrovs&#39;ka%20oblast%2C%2049000!5e0!3m2!1sen!2sua!4v1572618704704!5m2!1sen!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "02_hotel",
+            "video": []
+        },
+        {
+            "date": "13.10.2019",
+            "name": "Парк имени Лазаря Глобы",
+            "country": [
+                "Ukraine"
+            ],
+            "city": "Dnipro",
+            "tag": [
+                "sight"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.81224561821!2d35.028811272940615!3d48.46991600470016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe2fafc69654b%3A0xd33d7bfcda38ddbe!2z0J_QsNGA0Log0LjQvNC10L3QuCDQm9Cw0LfQsNGA0Y8g0JPQu9C-0LHRiywg0JTQvdC40L_RgNC-LCDQlNC90LXQv9GA0L7Qv9C10YLRgNC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNDkwMDA!5e0!3m2!1sru!2sua!4v1572618800576!5m2!1sru!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "03_park_s_poezdom",
+            "video": []
+        },
+        {
+            "date": "23.10.2019",
+            "name": "Ресторан: Барон Разгуляефф",
+            "country": [
+                "Ukraine"
+            ],
+            "city": "Dnipro",
+            "tag": [
+                "cafe"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.989258254968!2d35.06885771584246!3d48.437545938199314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbfcda9a1592b9%3A0xde914cde487f43a7!2z0JHQsNGA0L7QvSDQoNCw0LfQs9GD0LvRj9C10YTRhA!5e0!3m2!1sru!2sua!4v1572619124922!5m2!1sru!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "04_cafe_razgulyaev",
+            "video": []
+        },
+        {
+            "date": "23.10.2019",
+            "name": "Набережная",
+            "country": [
+                "Ukraine"
+            ],
+            "city": "Dnipro",
+            "tag": [
+                "sight"
+            ],
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "05_naberezhnaya",
+            "video": []
+        },
+        {
+            "date": "23.10.2019",
+            "name": "Прибережный сквер",
+            "country": [
+                "Ukraine"
+            ],
+            "city": "Dnipro",
+            "tag": [
+                "sight"
+            ],
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "06_park_s_fontanami",
+            "video": []
+        },
+        {
+            "date": "14.10.2019",
+            "name": "Road: Днепр - Киев",
+            "country": [
+                "Ukraine"
+            ],
+            "city": "",
+            "tag": [
+                "road"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1327936.7923104782!2d31.66237738256259!3d49.45377501192003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x40dbe303fd08468f%3A0xa1cf3d5f2c11aba!2z0JTQvdC40L_RgNC-LCDQlNC90LXQv9GA0L7Qv9C10YLRgNC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNDkwMDA!3m2!1d48.464717!2d35.046183!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!3m2!1d50.4501!2d30.5234!5e0!3m2!1sru!2sua!4v1572619469592!5m2!1sru!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "07_road back",
+            "video": [],
+            "videoroad": []
+        }
+    ]
+}
