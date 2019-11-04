@@ -52,7 +52,9 @@
             "description": "",
             "descriptionarticle": "",
             "foto": "03_park_s_poezdom",
-            "video": []
+            "video": [
+                "https://youtu.be/TaU3ii9WPGs"
+            ]
         },
         {
             "date": "23.10.2019",
@@ -83,7 +85,11 @@
             "description": "",
             "descriptionarticle": "",
             "foto": "05_naberezhnaya",
-            "video": []
+            "video": [
+                "https://youtu.be/bof9Y2d4vYQ",
+                "https://youtu.be/1iZ0aAtzDxA",
+                "https://youtu.be/RVbVUNPIacw"
+            ]
         },
         {
             "date": "23.10.2019",
@@ -98,7 +104,7 @@
             "description": "",
             "descriptionarticle": "",
             "foto": "06_park_s_fontanami",
-            "video": []
+            "video": ["https://youtu.be/kX4wckqpjR4"]
         },
         {
             "date": "14.10.2019",
