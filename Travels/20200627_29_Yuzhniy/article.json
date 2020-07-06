@@ -1,0 +1,71 @@
+{
+    "date": "27.07.2020",
+    "dateend": "29.07.2020",
+    "name": "Киев-Южный-Киев",
+    "country": [
+        "Ukraine"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m40!1m12!1m3!1d2708986.854269237!2d27.55491845316787!3d48.46621868479151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m25!3e0!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!3m2!1d50.4501!2d30.5234!4m5!1s0x40c615710844524b%3A0x99fcd85662ffa818!2z0K7QttC90YvQuSwg0J7QtNC10YHRgdC60LDRjyDQvtCx0LvQsNGB0YLRjA!3m2!1d46.624021299999995!2d31.1000648!4m5!1s0x472d5b65195a6489%3A0xcbd4e159eedd74fe!2z0JLQuNC90L3QuNGG0LAsINCS0LjQvdC90LjRhtC60LDRjyDQvtCx0LvQsNGB0YLRjCwgMjEwMDA!3m2!1d49.233083!2d28.468216899999998!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!3m2!1d50.4501!2d30.5234!5e0!3m2!1sru!2sua!4v1594043285871!5m2!1sru!2sua",
+    "articles": [{
+            "date": "07.03.2020",
+            "name": "road: Киев - Южный",
+            "country": [
+                "Ukraine"
+            ],
+            "city": "",
+            "tag": [
+                "road"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2708967.609741596!2d28.943289427494527!3d48.46657921871447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!3m2!1d50.4501!2d30.5234!4m5!1s0x40c615710844524b%3A0x99fcd85662ffa818!2z0K7QttC90YvQuSwg0J7QtNC10YHRgdC60LDRjyDQvtCx0LvQsNGB0YLRjA!3m2!1d46.624021299999995!2d31.1000648!5e0!3m2!1sru!2sua!4v1594043178656!5m2!1sru!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "01_road",
+            "video": []
+        },
+        {
+            "date": "07.03.2020",
+            "name": "Южный",
+            "country": [
+                "Ukraine"
+            ],
+            "city": "Yuzhniy",
+            "tag": [
+                "city"
+            ],
+            "foto": "02_city"
+        },
+        {
+            "date": "27.06.2020",
+            "dateend": "29.06.2020",
+            "name": "Apartamenty",
+            "country": [
+                "Ukraine"
+            ],
+            "city": "Yuzhniy",
+            "tag": [
+                "hotel"
+            ],
+            "link_booking": "https://www.booking.com/hotel/ua/apartamenty-iuzhne.ru.html",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6196.675215111519!2d31.09560092092917!3d46.61794114462417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c615710844524b%3A0x99fcd85662ffa818!2z0K7QttC90YvQuSwg0J7QtNC10YHRgdC60LDRjyDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sua!4v1594043033080!5m2!1sru!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "",
+            "video": ["https://youtu.be/MOlRuExMG7U"]
+        },
+        {
+            "date": "08.03.2020",
+            "name": "Road: Южный - Винница - Киев",
+            "country": [
+                "Ukraine"
+            ],
+            "city": "",
+            "tag": [
+                "road"
+            ],
+            "map": "https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d2708899.9087214405!2d27.554918563073567!3d48.46784753807911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x40c615710844524b%3A0x99fcd85662ffa818!2z0K7QttC90YvQuSwg0J7QtNC10YHRgdC60LDRjyDQvtCx0LvQsNGB0YLRjA!3m2!1d46.624021299999995!2d31.1000648!4m5!1s0x472d5b65195a6489%3A0xcbd4e159eedd74fe!2z0JLQuNC90L3QuNGG0LAsINCS0LjQvdC90LjRhtC60LDRjyDQvtCx0LvQsNGB0YLRjCwgMjEwMDA!3m2!1d49.233083!2d28.468216899999998!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!3m2!1d50.4501!2d30.5234!5e0!3m2!1sru!2sua!4v1594043236160!5m2!1sru!2sua",
+            "description": "",
+            "descriptionarticle": "",
+            "foto": "03_road"
+        }
+    ]
+}
