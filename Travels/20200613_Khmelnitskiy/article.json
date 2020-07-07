@@ -1,0 +1,14 @@
+{
+    "date": "13.06.2020",
+    "name": "Киев-Черный Остров-Киев",
+    "country": [
+        "Ukraine"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d1314719.019108708!2d27.518877974869863!3d49.93989534011474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!3m2!1d50.4501!2d30.5234!4m5!1s0x4731fe47cd4e2605%3A0xb25ec45e985546ea!2z0KfQtdGA0L3Ri9C5INCe0YHRgtGA0L7Qsiwg0KXQvNC10LvRjNC90LjRhtC60LDRjyDQvtCx0LvQsNGB0YLRjA!3m2!1d49.5083239!2d26.7658004!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2sKiev%2C%20Kyiv%20city!3m2!1d50.4501!2d30.5234!5e0!3m2!1sru!2sua!4v1594115333029!5m2!1sru!2sua",
+    "articles": [{
+        "description": "",
+        "descriptionarticle": "",
+        "foto": "01_road",
+        "video": []
+    }]
+}
