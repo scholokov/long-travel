@@ -1,0 +1,23 @@
+{
+    "date": "14.06.2020",
+    "name": "Парк Муромец - Квадроциклы",
+    "country": [
+        "Ukraine"
+    ],
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.282140684948!2d30.541362588875234!3d50.49726755174219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d1ef27d92ae5%3A0x89b1e5afe5edc66b!2z0J_QsNGA0Log0JzRg9GA0L7QvNC10YY!5e0!3m2!1sru!2sua!4v1595338000017!5m2!1sru!2sua",
+    "articles": [{
+        "date": "14.03.2020",
+        "name": "Парк Муромец - Квадроциклы",
+        "country": [
+            "Ukraine"
+        ],
+        "city": "Kiev",
+        "tag": [
+            ""
+        ],
+        "description": "",
+        "descriptionarticle": "",
+        "foto": "images",
+        "video": []
+    }]
+}
